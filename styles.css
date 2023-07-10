@@ -2013,6 +2013,9 @@ body {
   .md\:flex {
     display: flex !important;
   }
+  .md\:inline-flex {
+    display: inline-flex !important;
+  }
   .md\:hidden {
     display: none !important;
   }
