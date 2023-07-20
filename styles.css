@@ -746,6 +746,9 @@ video {
 .h-2 {
   height: 0.5rem !important;
 }
+.h-36 {
+  height: 9rem !important;
+}
 .h-4 {
   height: 1rem !important;
 }
@@ -811,6 +814,9 @@ video {
 }
 .w-6 {
   width: 1.5rem !important;
+}
+.w-64 {
+  width: 16rem !important;
 }
 .w-8 {
   width: 2rem !important;
@@ -889,6 +895,34 @@ video {
 .animate-bounce {
   animation: bounce 1s infinite !important;
 }
+@keyframes ecommerce {
+  0% {
+    background: url('/assets/images/ecom_slide_1.png');
+  }
+  50% {
+    background: url('/assets/images/ecom_slide_2.png');
+  }
+  100% {
+    background: url('/assets/images/ecom_slide_1.png');
+  }
+}
+.animate-ecommerce-animation {
+  animation: ecommerce 7s linear infinite 0s !important;
+}
+@keyframes elearn {
+  0% {
+    background: url('/assets/images/elearn_slide_1.png');
+  }
+  50% {
+    background: url('/assets/images/elearn_slide_2.png');
+  }
+  100% {
+    background: url('/assets/images/elearn_slide_1.png');
+  }
+}
+.animate-elearn-animation {
+  animation: elearn 7s linear infinite 0s !important;
+}
 @keyframes Imagefade {
   0% {
     opacity: 0;
@@ -947,11 +981,17 @@ video {
 .items-start {
   align-items: flex-start !important;
 }
+.items-end {
+  align-items: flex-end !important;
+}
 .items-center {
   align-items: center !important;
 }
 .items-baseline {
   align-items: baseline !important;
+}
+.items-stretch {
+  align-items: stretch !important;
 }
 .justify-start {
   justify-content: flex-start !important;
@@ -1170,6 +1210,9 @@ video {
 .bg-yellow-600 {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(202 138 4 / var(--tw-bg-opacity)) !important;
+}
+.bg-\[length\:100\%_100\%\] {
+  background-size: 100% 100% !important;
 }
 .fill-current {
   fill: currentColor !important;
@@ -1478,6 +1521,10 @@ video {
 }
 .ring-opacity-5 {
   --tw-ring-opacity: 0.05 !important;
+}
+.drop-shadow-carousal-image-drop-shadow {
+  --tw-drop-shadow: drop-shadow(3px 27px 10px) !important;
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow) !important;
 }
 .filter-none {
   filter: none !important;
@@ -1788,6 +1835,10 @@ video {
 }
 body {
   font: 500 14px "Poppins", sans-serif !important;
+}
+
+.main-crousal .owl-stage {
+  display: flex;
 }
 
 .dark .owl-carousel .owl-item {
