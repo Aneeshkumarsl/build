@@ -2222,12 +2222,6 @@ body {
   .md\:hidden {
     display: none !important;
   }
-  .md\:h-\[70\%\] {
-    height: 70% !important;
-  }
-  .md\:h-\[86\%\] {
-    height: 86% !important;
-  }
   .md\:w-1\/2 {
     width: 50% !important;
   }
@@ -2337,13 +2331,6 @@ body {
   }
   .lg\:leading-6 {
     line-height: 1.5rem !important;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:h-fit {
-    height: -moz-fit-content !important;
-    height: fit-content !important;
   }
 }
 
