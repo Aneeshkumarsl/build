@@ -147,7 +147,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/contact/contact.component */ 9760);
 /* harmony import */ var _components_testimonials_testimonials_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/testimonials/testimonials.component */ 8693);
 /* harmony import */ var _components_model_model_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/model/model.component */ 8495);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/forms */ 8849);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/core */ 1699);
+
 
 
 
@@ -180,12 +182,12 @@ AppModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵ
   bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent]
 });
 AppModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵdefineInjector"]({
-  imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_17__.BrowserModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_18__.HttpClientModule, angular_svg_icon__WEBPACK_IMPORTED_MODULE_19__.AngularSvgIconModule.forRoot(), ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_20__.CarouselModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_21__.BrowserAnimationsModule]
+  imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_17__.BrowserModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_18__.HttpClientModule, angular_svg_icon__WEBPACK_IMPORTED_MODULE_19__.AngularSvgIconModule.forRoot(), ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_20__.CarouselModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_21__.BrowserAnimationsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_22__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_22__.ReactiveFormsModule]
 });
 (function () {
   (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵsetNgModuleScope"](AppModule, {
     declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent, _components_header_header_component__WEBPACK_IMPORTED_MODULE_2__.HeaderComponent, _components_header_mobile_header_mobile_component__WEBPACK_IMPORTED_MODULE_3__.HeaderMobileComponent, _components_description_description_component__WEBPACK_IMPORTED_MODULE_4__.DescriptionComponent, _components_description_carousal_carousal_component__WEBPACK_IMPORTED_MODULE_5__.CarousalComponent, _components_arrow_svg_arrow_svg_component__WEBPACK_IMPORTED_MODULE_6__.ArrowSVGComponent, _components_business_business_component__WEBPACK_IMPORTED_MODULE_7__.BusinessComponent, _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_8__.FooterComponent, _components_process_process_component__WEBPACK_IMPORTED_MODULE_9__.ProcessComponent, _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_10__.ProjectsComponent, _components_work_work_component__WEBPACK_IMPORTED_MODULE_11__.WorkComponent, _components_back_to_top_back_to_top_component__WEBPACK_IMPORTED_MODULE_12__.BackToTopComponent, _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_13__.ContactComponent, _components_testimonials_testimonials_component__WEBPACK_IMPORTED_MODULE_14__.TestimonialsComponent, _components_model_model_component__WEBPACK_IMPORTED_MODULE_15__.ModelComponent],
-    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_17__.BrowserModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_18__.HttpClientModule, angular_svg_icon__WEBPACK_IMPORTED_MODULE_19__.AngularSvgIconModule, ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_20__.CarouselModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_21__.BrowserAnimationsModule]
+    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_17__.BrowserModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_18__.HttpClientModule, angular_svg_icon__WEBPACK_IMPORTED_MODULE_19__.AngularSvgIconModule, ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_20__.CarouselModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_21__.BrowserAnimationsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_22__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_22__.ReactiveFormsModule]
   });
 })();
 
@@ -604,18 +606,163 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ContactComponent: () => (/* binding */ ContactComponent)
 /* harmony export */ });
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ 8849);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 6575);
 
-class ContactComponent {}
+
+
+
+function ContactComponent_div_67_span_1_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 41);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Your name is required.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+}
+function ContactComponent_div_67_span_2_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 41);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Your name should be 3 character.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+}
+function ContactComponent_div_67_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 39);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ContactComponent_div_67_span_1_Template, 2, 0, "span", 40);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ContactComponent_div_67_span_2_Template, 2, 0, "span", 40);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r0.submitted && ctx_r0.userDataFormControls.userName.errors.required);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r0.userDataFormControls.userName.errors.minlength);
+  }
+}
+function ContactComponent_div_70_span_1_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 41);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Mail address is required.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+}
+function ContactComponent_div_70_span_2_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 41);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Email must be a valid email address.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+}
+function ContactComponent_div_70_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 39);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ContactComponent_div_70_span_1_Template, 2, 0, "span", 40);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ContactComponent_div_70_span_2_Template, 2, 0, "span", 40);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r1.userDataFormControls.email.errors.required);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r1.userDataFormControls.email.errors.email);
+  }
+}
+function ContactComponent_div_73_span_1_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 41);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Contact number is required.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+}
+function ContactComponent_div_73_span_2_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 41);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Contact number should be 10 digits.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+}
+function ContactComponent_div_73_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 39);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ContactComponent_div_73_span_1_Template, 2, 0, "span", 40);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ContactComponent_div_73_span_2_Template, 2, 0, "span", 40);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r2.submitted && ctx_r2.userDataFormControls.phone.errors.required);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r2.userDataFormControls.phone.errors.minlength);
+  }
+}
+function ContactComponent_div_76_span_1_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 44);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Your message is required.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+}
+function ContactComponent_div_76_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 42);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ContactComponent_div_76_span_1_Template, 2, 0, "span", 43);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r3.userDataFormControls.message.errors.required);
+  }
+}
+class ContactComponent {
+  constructor(formBuilder) {
+    this.formBuilder = formBuilder;
+    this.submitted = false;
+  }
+  ngOnInit() {
+    this.loadForm();
+  }
+  loadForm() {
+    this.userDataForm = this.formBuilder.group({
+      email: [null, [_angular_forms__WEBPACK_IMPORTED_MODULE_1__.Validators.required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.Validators.email]],
+      userName: [null, [_angular_forms__WEBPACK_IMPORTED_MODULE_1__.Validators.required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.Validators.minLength(3)]],
+      phone: [null, [_angular_forms__WEBPACK_IMPORTED_MODULE_1__.Validators.required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.Validators.minLength(10)]],
+      message: [null, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.Validators.required]
+    });
+    // this.isReady = true;
+  }
+
+  get userDataFormControls() {
+    return this.userDataForm.controls;
+  }
+  sendUserData() {
+    this.submitted = true;
+    if (this.userDataForm.invalid) {
+      return;
+    }
+    let updateData = {
+      email: this.userDataForm.value.email,
+      firstName: this.userDataForm.value.userName,
+      phone: this.userDataForm.value.phone,
+      message: this.userDataForm.value.message
+    };
+    console.log(updateData, 'userEditForm.value');
+  }
+}
 ContactComponent.ɵfac = function ContactComponent_Factory(t) {
-  return new (t || ContactComponent)();
+  return new (t || ContactComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormBuilder));
 };
 ContactComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
   type: ContactComponent,
   selectors: [["app-contact"]],
-  decls: 76,
-  vars: 0,
-  consts: [["id", "contact", 1, "mx-auto", "mt-8", "px-6", "md:px-8", "lg:px-16", "xl:px-30", "2xl:px-55"], [1, "uppercase", "text-sky-500", "font-bold"], [1, "text-3xl", "leading-tight", "font-bold", "text-slate-700", "dark:text-slate-200"], [1, "text-sky-500"], [1, "mt-8", "flex", "flex-wrap", "relative", "z-10"], [1, "w-full", "md:w-2/5"], [1, "mb-12", "max-w-[570px]", "lg:mb-0"], [1, "text-slate-500", "dark:text-slate-400", "text-sm13", "mb-9", "text-sm", "leading-relaxed"], [1, "mb-8", "flex", "w-full", "items-start", "max-w-[370px]"], [1, "bg-purple-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "24", "height", "24", "viewBox", "0 0 24 24", 1, "w-3", "fill-white"], ["d", "M21.8182 24H16.5584C15.3896 24 14.4156 23.0256 14.4156 21.8563V17.5688C14.4156 17.1401 14.0649 16.7893 13.6364 16.7893H10.4026C9.97403 16.7893 9.62338 17.1401 9.62338 17.5688V21.8173C9.62338 22.9866 8.64935 23.961 7.48052 23.961H2.14286C0.974026 23.961 0 22.9866 0 21.8173V8.21437C0 7.62972 0.311688 7.08404 0.818182 6.77223L11.1039 0.263094C11.6494 -0.0876979 12.3896 -0.0876979 12.9351 0.263094L23.2208 6.77223C23.7273 7.08404 24 7.62972 24 8.21437V21.7783C24 23.0256 23.026 24 21.8182 24ZM10.3636 15.4251H13.5974C14.7662 15.4251 15.7403 16.3995 15.7403 17.5688V21.8173C15.7403 22.246 16.0909 22.5968 16.5195 22.5968H21.8182C22.2468 22.5968 22.5974 22.246 22.5974 21.8173V8.25335C22.5974 8.13642 22.5195 8.01949 22.4416 7.94153L12.1948 1.4324C12.0779 1.35445 11.9221 1.35445 11.8442 1.4324L1.55844 7.94153C1.44156 8.01949 1.4026 8.13642 1.4026 8.25335V21.8563C1.4026 22.285 1.75325 22.6358 2.18182 22.6358H7.48052C7.90909 22.6358 8.25974 22.285 8.25974 21.8563V17.5688C8.22078 16.3995 9.19481 15.4251 10.3636 15.4251Z"], [1, "w-full"], [1, "text-slate-700", "dark:text-slate-200", "mb-1", "text-base", "font-semibold", "leading-none", "cursor-pointer", "hover:text-sky-500", "dark:hover:text-sky-500"], [1, "text-xmd", "text-slate-500", "cursor-pointer", "hover:text-sky-500", "dark:hover:text-sky-500", "dark:text-slate-400"], [1, "bg-rose-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], [1, "text-xmd", "text-slate-500", "dark:text-slate-400", "cursor-pointer", "hover:text-sky-500", "dark:hover:text-sky-500"], [1, "bg-indigo-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "24", "height", "26", "viewBox", "0 0 24 26", 1, "w-3", "fill-white"], ["d", "M22.6149 15.1386C22.5307 14.1704 21.7308 13.4968 20.7626 13.4968H2.82869C1.86042 13.4968 1.10265 14.2125 0.97636 15.1386L0.092295 23.9793C0.0501967 24.4845 0.21859 25.0317 0.555377 25.4106C0.892163 25.7895 1.39734 26 1.94462 26H21.6887C22.1939 26 22.6991 25.7895 23.078 25.4106C23.4148 25.0317 23.5832 24.5266 23.5411 23.9793L22.6149 15.1386ZM21.9413 24.4424C21.8992 24.4845 21.815 24.5687 21.6466 24.5687H1.94462C1.81833 24.5687 1.69203 24.4845 1.64993 24.4424C1.60783 24.4003 1.52364 24.3161 1.56574 24.1477L2.4498 15.2649C2.4498 15.0544 2.61819 14.9281 2.82869 14.9281H20.8047C21.0152 14.9281 21.1415 15.0544 21.1835 15.2649L22.0676 24.1477C22.0255 24.274 21.9834 24.4003 21.9413 24.4424Z"], ["d", "M11.7965 16.7805C10.1547 16.7805 8.84961 18.0855 8.84961 19.7273C8.84961 21.3692 10.1547 22.6742 11.7965 22.6742C13.4383 22.6742 14.7434 21.3692 14.7434 19.7273C14.7434 18.0855 13.4383 16.7805 11.7965 16.7805ZM11.7965 21.2008C10.9966 21.2008 10.3231 20.5272 10.3231 19.7273C10.3231 18.9275 10.9966 18.2539 11.7965 18.2539C12.5964 18.2539 13.2699 18.9275 13.2699 19.7273C13.2699 20.5272 12.5964 21.2008 11.7965 21.2008Z"], ["d", "M1.10265 7.85562C1.18684 9.70794 2.82868 10.4657 3.67064 10.4657H6.61752C6.65962 10.4657 6.65962 10.4657 6.65962 10.4657C7.92257 10.3815 9.18552 9.53955 9.18552 7.85562V6.84526C10.5748 6.84526 13.7742 6.84526 15.1635 6.84526V7.85562C15.1635 9.53955 16.4264 10.3815 17.6894 10.4657H17.7315H20.6363C21.4782 10.4657 23.1201 9.70794 23.2043 7.85562C23.2043 7.72932 23.2043 7.26624 23.2043 6.84526C23.2043 6.50847 23.2043 6.21378 23.2043 6.17169C23.2043 6.12959 23.2043 6.08749 23.2043 6.08749C23.078 4.90874 22.657 3.94047 21.9413 3.18271L21.8992 3.14061C20.8468 2.17235 19.5838 1.62507 18.6155 1.28828C15.795 0.193726 12.2587 0.193726 12.0903 0.193726C9.6065 0.235824 8.00677 0.446315 5.60716 1.28828C4.681 1.58297 3.41805 2.13025 2.36559 3.09851L2.3235 3.14061C1.60782 3.89838 1.18684 4.86664 1.06055 6.04539C1.06055 6.08749 1.06055 6.12959 1.06055 6.12959C1.06055 6.21378 1.06055 6.46637 1.06055 6.80316C1.10265 7.18204 1.10265 7.68722 1.10265 7.85562ZM3.37595 4.15097C4.21792 3.3932 5.27038 2.93012 6.15444 2.59333C8.34355 1.79346 9.7749 1.62507 12.1745 1.58297C12.3429 1.58297 15.6266 1.62507 18.1525 2.59333C19.0365 2.93012 20.089 3.3511 20.931 4.15097C21.394 4.65615 21.6887 5.32972 21.7729 6.12959C21.7729 6.25588 21.7729 6.46637 21.7729 6.80316C21.7729 7.22414 21.7729 7.68722 21.7729 7.81352C21.7308 8.78178 20.8047 8.99227 20.6784 8.99227H17.7736C17.3526 8.95017 16.679 8.78178 16.679 7.85562V6.12959C16.679 5.7928 16.4685 5.54021 16.1738 5.41392C15.9213 5.32972 8.55405 5.32972 8.30146 5.41392C8.00677 5.49811 7.79628 5.7928 7.79628 6.12959V7.85562C7.79628 8.78178 7.1227 8.95017 6.70172 8.99227H3.79694C3.67064 8.99227 2.74448 8.78178 2.70238 7.81352C2.70238 7.68722 2.70238 7.22414 2.70238 6.80316C2.70238 6.46637 2.70238 6.29798 2.70238 6.17169C2.61818 5.32972 2.91287 4.65615 3.37595 4.15097Z"], [1, "bg-green-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "28", "height", "19", "viewBox", "0 0 28 19", 1, "w-3", "fill-white"], ["d", "M25.3636 0H2.63636C1.18182 0 0 1.16785 0 2.6052V16.3948C0 17.8322 1.18182 19 2.63636 19H25.3636C26.8182 19 28 17.8322 28 16.3948V2.6052C28 1.16785 26.8182 0 25.3636 0ZM25.3636 1.5721C25.5909 1.5721 25.7727 1.61702 25.9545 1.75177L14.6364 8.53428C14.2273 8.75886 13.7727 8.75886 13.3636 8.53428L2.04545 1.75177C2.22727 1.66194 2.40909 1.5721 2.63636 1.5721H25.3636ZM25.3636 17.383H2.63636C2.09091 17.383 1.59091 16.9338 1.59091 16.3499V3.32388L12.5 9.8818C12.9545 10.1513 13.4545 10.2861 13.9545 10.2861C14.4545 10.2861 14.9545 10.1513 15.4091 9.8818L26.3182 3.32388V16.3499C26.4091 16.9338 25.9091 17.383 25.3636 17.383Z"], [1, "md:w-3/5", "w-full", "inline-flex", "justify-end"], [1, "relative", "md:w-4/5", "w-full", "rounded-lg", "p-8", "sm:p-12", "border", "shadow-lg", "border-gray-200", "dark:border-slate-50/[0.06]"], [1, "text-lg", "leading-tight", "font-bold", "text-slate-700", "dark:text-slate-200"], [1, "text-xs/[16px]", "text-slate-500", "dark:text-slate-400", "text-xmd"], [1, "mt-5"], [1, "mb-6"], ["type", "text", "placeholder", "Your Name", 1, "text-sky-500", "bg-white", "dark:bg-dark-1", "border-slate-900/10", "dark:border-dark-border", "focus:border-primary", "w-full", "rounded", "border", "py-3", "px-[14px]", "text-xs", "outline-none", "focus-visible:shadow-none"], ["type", "email", "placeholder", "Your Email", 1, "text-sky-500", "bg-white", "dark:bg-dark-1", "border-slate-900/10", "dark:border-dark-border", "focus:border-primary", "w-full", "rounded", "border", "py-3", "px-[14px]", "text-xs", "outline-none", "focus-visible:shadow-none"], ["type", "text", "placeholder", "Your Phone", 1, "text-sky-500", "bg-white", "dark:bg-dark-1", "border-slate-900/10", "dark:border-dark-border", "focus:border-primary", "w-full", "rounded", "border", "py-3", "px-[14px]", "text-xs", "outline-none", "focus-visible:shadow-none"], ["rows", "6", "placeholder", "Your Message", 1, "text-sky-500", "bg-white", "dark:bg-dark-1", "border-slate-900/10", "dark:border-dark-border", "focus:border-primary", "w-full", "resize-none", "rounded", "border", "py-3", "px-[14px]", "text-xs", "outline-none", "focus-visible:shadow-none"], ["type", "submit", 1, "bg-sky-500", "border", "text-white", "border-primary", "w-full", "rounded", "border", "p-3", "hover:bg-sky-600", "border-sky-500", "dark:hover:text-white", "transition", "hover:bg-opacity-90"]],
+  decls: 80,
+  vars: 5,
+  consts: [["id", "contact", 1, "mx-auto", "mt-8", "px-6", "md:px-8", "lg:px-16", "xl:px-30", "2xl:px-55"], [1, "uppercase", "text-sky-500", "font-bold"], [1, "text-3xl", "leading-tight", "font-bold", "text-slate-700", "dark:text-slate-200"], [1, "text-sky-500"], [1, "mt-8", "flex", "flex-wrap", "relative", "z-10"], [1, "w-full", "md:w-2/5"], [1, "mb-12", "max-w-[570px]", "lg:mb-0"], [1, "text-slate-500", "dark:text-slate-400", "text-sm13", "mb-9", "text-sm", "leading-relaxed"], [1, "mb-8", "flex", "w-full", "items-start", "max-w-[370px]"], [1, "bg-purple-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "24", "height", "24", "viewBox", "0 0 24 24", 1, "w-3", "fill-white"], ["d", "M21.8182 24H16.5584C15.3896 24 14.4156 23.0256 14.4156 21.8563V17.5688C14.4156 17.1401 14.0649 16.7893 13.6364 16.7893H10.4026C9.97403 16.7893 9.62338 17.1401 9.62338 17.5688V21.8173C9.62338 22.9866 8.64935 23.961 7.48052 23.961H2.14286C0.974026 23.961 0 22.9866 0 21.8173V8.21437C0 7.62972 0.311688 7.08404 0.818182 6.77223L11.1039 0.263094C11.6494 -0.0876979 12.3896 -0.0876979 12.9351 0.263094L23.2208 6.77223C23.7273 7.08404 24 7.62972 24 8.21437V21.7783C24 23.0256 23.026 24 21.8182 24ZM10.3636 15.4251H13.5974C14.7662 15.4251 15.7403 16.3995 15.7403 17.5688V21.8173C15.7403 22.246 16.0909 22.5968 16.5195 22.5968H21.8182C22.2468 22.5968 22.5974 22.246 22.5974 21.8173V8.25335C22.5974 8.13642 22.5195 8.01949 22.4416 7.94153L12.1948 1.4324C12.0779 1.35445 11.9221 1.35445 11.8442 1.4324L1.55844 7.94153C1.44156 8.01949 1.4026 8.13642 1.4026 8.25335V21.8563C1.4026 22.285 1.75325 22.6358 2.18182 22.6358H7.48052C7.90909 22.6358 8.25974 22.285 8.25974 21.8563V17.5688C8.22078 16.3995 9.19481 15.4251 10.3636 15.4251Z"], [1, "w-full"], [1, "text-slate-700", "dark:text-slate-200", "mb-1", "text-base", "font-semibold", "leading-none", "cursor-pointer", "hover:text-sky-500", "dark:hover:text-sky-500"], [1, "text-xmd", "text-slate-500", "cursor-pointer", "hover:text-sky-500", "dark:hover:text-sky-500", "dark:text-slate-400"], [1, "bg-rose-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], [1, "text-xmd", "text-slate-500", "dark:text-slate-400", "cursor-pointer", "hover:text-sky-500", "dark:hover:text-sky-500"], [1, "bg-indigo-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "24", "height", "26", "viewBox", "0 0 24 26", 1, "w-3", "fill-white"], ["d", "M22.6149 15.1386C22.5307 14.1704 21.7308 13.4968 20.7626 13.4968H2.82869C1.86042 13.4968 1.10265 14.2125 0.97636 15.1386L0.092295 23.9793C0.0501967 24.4845 0.21859 25.0317 0.555377 25.4106C0.892163 25.7895 1.39734 26 1.94462 26H21.6887C22.1939 26 22.6991 25.7895 23.078 25.4106C23.4148 25.0317 23.5832 24.5266 23.5411 23.9793L22.6149 15.1386ZM21.9413 24.4424C21.8992 24.4845 21.815 24.5687 21.6466 24.5687H1.94462C1.81833 24.5687 1.69203 24.4845 1.64993 24.4424C1.60783 24.4003 1.52364 24.3161 1.56574 24.1477L2.4498 15.2649C2.4498 15.0544 2.61819 14.9281 2.82869 14.9281H20.8047C21.0152 14.9281 21.1415 15.0544 21.1835 15.2649L22.0676 24.1477C22.0255 24.274 21.9834 24.4003 21.9413 24.4424Z"], ["d", "M11.7965 16.7805C10.1547 16.7805 8.84961 18.0855 8.84961 19.7273C8.84961 21.3692 10.1547 22.6742 11.7965 22.6742C13.4383 22.6742 14.7434 21.3692 14.7434 19.7273C14.7434 18.0855 13.4383 16.7805 11.7965 16.7805ZM11.7965 21.2008C10.9966 21.2008 10.3231 20.5272 10.3231 19.7273C10.3231 18.9275 10.9966 18.2539 11.7965 18.2539C12.5964 18.2539 13.2699 18.9275 13.2699 19.7273C13.2699 20.5272 12.5964 21.2008 11.7965 21.2008Z"], ["d", "M1.10265 7.85562C1.18684 9.70794 2.82868 10.4657 3.67064 10.4657H6.61752C6.65962 10.4657 6.65962 10.4657 6.65962 10.4657C7.92257 10.3815 9.18552 9.53955 9.18552 7.85562V6.84526C10.5748 6.84526 13.7742 6.84526 15.1635 6.84526V7.85562C15.1635 9.53955 16.4264 10.3815 17.6894 10.4657H17.7315H20.6363C21.4782 10.4657 23.1201 9.70794 23.2043 7.85562C23.2043 7.72932 23.2043 7.26624 23.2043 6.84526C23.2043 6.50847 23.2043 6.21378 23.2043 6.17169C23.2043 6.12959 23.2043 6.08749 23.2043 6.08749C23.078 4.90874 22.657 3.94047 21.9413 3.18271L21.8992 3.14061C20.8468 2.17235 19.5838 1.62507 18.6155 1.28828C15.795 0.193726 12.2587 0.193726 12.0903 0.193726C9.6065 0.235824 8.00677 0.446315 5.60716 1.28828C4.681 1.58297 3.41805 2.13025 2.36559 3.09851L2.3235 3.14061C1.60782 3.89838 1.18684 4.86664 1.06055 6.04539C1.06055 6.08749 1.06055 6.12959 1.06055 6.12959C1.06055 6.21378 1.06055 6.46637 1.06055 6.80316C1.10265 7.18204 1.10265 7.68722 1.10265 7.85562ZM3.37595 4.15097C4.21792 3.3932 5.27038 2.93012 6.15444 2.59333C8.34355 1.79346 9.7749 1.62507 12.1745 1.58297C12.3429 1.58297 15.6266 1.62507 18.1525 2.59333C19.0365 2.93012 20.089 3.3511 20.931 4.15097C21.394 4.65615 21.6887 5.32972 21.7729 6.12959C21.7729 6.25588 21.7729 6.46637 21.7729 6.80316C21.7729 7.22414 21.7729 7.68722 21.7729 7.81352C21.7308 8.78178 20.8047 8.99227 20.6784 8.99227H17.7736C17.3526 8.95017 16.679 8.78178 16.679 7.85562V6.12959C16.679 5.7928 16.4685 5.54021 16.1738 5.41392C15.9213 5.32972 8.55405 5.32972 8.30146 5.41392C8.00677 5.49811 7.79628 5.7928 7.79628 6.12959V7.85562C7.79628 8.78178 7.1227 8.95017 6.70172 8.99227H3.79694C3.67064 8.99227 2.74448 8.78178 2.70238 7.81352C2.70238 7.68722 2.70238 7.22414 2.70238 6.80316C2.70238 6.46637 2.70238 6.29798 2.70238 6.17169C2.61818 5.32972 2.91287 4.65615 3.37595 4.15097Z"], [1, "bg-green-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "28", "height", "19", "viewBox", "0 0 28 19", 1, "w-3", "fill-white"], ["d", "M25.3636 0H2.63636C1.18182 0 0 1.16785 0 2.6052V16.3948C0 17.8322 1.18182 19 2.63636 19H25.3636C26.8182 19 28 17.8322 28 16.3948V2.6052C28 1.16785 26.8182 0 25.3636 0ZM25.3636 1.5721C25.5909 1.5721 25.7727 1.61702 25.9545 1.75177L14.6364 8.53428C14.2273 8.75886 13.7727 8.75886 13.3636 8.53428L2.04545 1.75177C2.22727 1.66194 2.40909 1.5721 2.63636 1.5721H25.3636ZM25.3636 17.383H2.63636C2.09091 17.383 1.59091 16.9338 1.59091 16.3499V3.32388L12.5 9.8818C12.9545 10.1513 13.4545 10.2861 13.9545 10.2861C14.4545 10.2861 14.9545 10.1513 15.4091 9.8818L26.3182 3.32388V16.3499C26.4091 16.9338 25.9091 17.383 25.3636 17.383Z"], [1, "md:w-3/5", "w-full", "inline-flex", "justify-end"], [1, "relative", "md:w-4/5", "w-full", "rounded-lg", "p-8", "sm:p-12", "border", "shadow-lg", "border-gray-200", "dark:border-slate-50/[0.06]"], [1, "text-lg", "leading-tight", "font-bold", "text-slate-700", "dark:text-slate-200"], [1, "text-xs/[16px]", "text-slate-500", "dark:text-slate-400", "text-xmd"], ["novalidate", "novalidate", 1, "mt-5", 3, "formGroup"], [1, "mb-6"], ["type", "text", "placeholder", "Your Name", "formControlName", "userName", 1, "text-sky-500", "bg-white", "dark:bg-dark-1", "border-slate-900/10", "dark:border-dark-border", "focus:border-primary", "w-full", "rounded", "border", "py-3", "px-[14px]", "text-xs", "outline-none", "focus-visible:shadow-none"], ["class", "absolute w-100 flex items-center justify-start", 4, "ngIf"], ["type", "email", "placeholder", "Your Email", "formControlName", "email", 1, "text-sky-500", "bg-white", "dark:bg-dark-1", "border-slate-900/10", "dark:border-dark-border", "focus:border-primary", "w-full", "rounded", "border", "py-3", "px-[14px]", "text-xs", "outline-none", "focus-visible:shadow-none"], ["type", "text", "placeholder", "Your Phone", "formControlName", "phone", "maxlength", "10", "onkeypress", "return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))", 1, "text-sky-500", "bg-white", "dark:bg-dark-1", "border-slate-900/10", "dark:border-dark-border", "focus:border-primary", "w-full", "rounded", "border", "py-3", "px-[14px]", "text-xs", "outline-none", "focus-visible:shadow-none"], [1, "mb-6", "relative"], ["rows", "6", "placeholder", "Your Message", "formControlName", "message", 1, "text-sky-500", "bg-white", "dark:bg-dark-1", "border-slate-900/10", "dark:border-dark-border", "focus:border-primary", "w-full", "resize-none", "rounded", "border", "py-3", "px-[14px]", "text-xs", "outline-none", "focus-visible:shadow-none"], ["class", "absolute -bottom-2.5 w-100 flex items-center justify-start", 4, "ngIf"], ["type", "submit", 1, "bg-sky-500", "border", "text-white", "border-primary", "w-full", "rounded", "border", "p-3", "hover:bg-sky-600", "border-sky-500", "dark:hover:text-white", "transition", "hover:bg-opacity-90", 3, "click"], [1, "absolute", "w-100", "flex", "items-center", "justify-start"], ["class", "text-xsm pt-0.5 pl-0.5 text-red-500", 4, "ngIf"], [1, "text-xsm", "pt-0.5", "pl-0.5", "text-red-500"], [1, "absolute", "-bottom-2.5", "w-100", "flex", "items-center", "justify-start"], ["class", "text-xsm pl-0.5 text-red-500", 4, "ngIf"], [1, "text-xsm", "pl-0.5", "text-red-500"]],
   template: function ContactComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "span", 1);
@@ -691,25 +838,45 @@ ContactComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, " faster? ");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "span", 28);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "Fill out our short form brief and we are contactyou soon");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "Fill out our short form brief and we are contact you soon");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "form", 29)(65, "div", 30);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "input", 31);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](67, ContactComponent_div_67_Template, 3, 2, "div", 32);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "div", 30);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](68, "input", 32);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "div", 30);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](70, "input", 33);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "div", 30);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](69, "input", 33);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](70, ContactComponent_div_70_Template, 3, 2, "div", 32);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 30);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](72, "textarea", 34);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](72, "input", 34);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](73, ContactComponent_div_73_Template, 3, 2, "div", 32);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "div")(74, "button", 35);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, " Send Message ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "div", 35);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](75, "textarea", 36);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](76, ContactComponent_div_76_Template, 2, 1, "div", 37);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "div")(78, "button", 38);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ContactComponent_Template_button_click_78_listener() {
+        return ctx.sendUserData();
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](79, " Send Message ");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()()();
     }
+    if (rf & 2) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](64);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("formGroup", ctx.userDataForm);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.userDataFormControls.userName.errors);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.submitted && ctx.userDataFormControls.email.errors);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.userDataFormControls.phone.errors);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.submitted && ctx.userDataFormControls.message.errors);
+    }
   },
+  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.NgIf, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.MaxLengthValidator, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormGroupDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormControlName],
   styles: ["/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ== */"]
 });
 
@@ -846,7 +1013,7 @@ function CarousalComponent_ng_template_5_Template(rf, ctx) {
 function CarousalComponent_ng_template_6_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 3)(1, "div", 4)(2, "div", 5)(3, "div", 6)(4, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h6", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Q & A");
@@ -865,7 +1032,7 @@ function CarousalComponent_ng_template_6_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "span", 11);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Posting");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "div", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
   }
@@ -873,30 +1040,30 @@ function CarousalComponent_ng_template_6_Template(rf, ctx) {
 function CarousalComponent_ng_template_7_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 3)(1, "div", 4)(2, "div", 5)(3, "div", 6)(4, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "a", 20)(6, "img", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h6", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Inventory billing system");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Web application");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "h6", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Inventory billing system");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Web application");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 10)(11, "span", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Inventory");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 10)(12, "span", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Inventory");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "span", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Billing/Payment ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "span", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Billing/Payment ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "span", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "IStock Management");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "span", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "IStock Management");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "span", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Admin module");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "span", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Admin module");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "span", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Creative UI");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "span", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Creative UI");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "div", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
   }
 }
@@ -942,7 +1109,7 @@ CarousalComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0_
   selectors: [["app-carousal"]],
   decls: 8,
   vars: 1,
-  consts: [[1, "main-crousal"], [3, "options"], ["carouselSlide", ""], [1, "slide", "h-full"], [1, "flex", "items-center", "flex-col", "w-full", "h-full", "justify-between"], [1, "basis-full"], [1, "flex", "items-center"], [1, "bg-sky-100", "inline-block", "relative", "rounded-lg", "w-12", "dark:bg-dark-1", "mr-3"], ["src", "assets/icons/elearning.png", "alt", "", 1, "w-12", "h-12", "inline-block", "p-3", "filter-none"], [1, "text-sm/[16px]", "font-bold", "text-sky-500"], [1, "flex", "flex-wrap", "mt-5"], [1, "mr-3", "border", "font-medium", "mb-2.5", "p-0.5", "px-3.5", "border-slate-300", "rounded-full", "dark:border-dark-border", "text-xsm/[20px]", "text-slate-500", "dark:text-slate-400"], [1, "basis-full", "flex", "justify-center", "my-3", "items-end"], [1, "drop-shadow-carousal-image-drop-shadow", "animate-elearn-animation", "bg-[length:100%_100%]", "w-64", "h-36"], ["src", "assets/icons/shopping.png", "alt", "", 1, "w-12", "h-12", "inline-block", "p-3", "filter-none"], [1, "drop-shadow-carousal-image-drop-shadow", "animate-ecommerce-animation", "bg-[length:100%_100%]", "w-64", "h-36"], ["src", "assets/icons/customer-service.png", "alt", "", 1, "w-12", "h-12", "inline-block", "p-3", "filter-none"], ["src", "assets/icons/bill.png", "alt", "", 1, "w-12", "h-12", "inline-block", "p-3", "filter-none"], [1, "basis-full", "flex", "justify-center", "my-3", "relative", "items-end"]],
+  consts: [[1, "main-crousal"], [3, "options"], ["carouselSlide", ""], [1, "slide", "h-full"], [1, "flex", "items-center", "flex-col", "w-full", "h-full", "justify-between"], [1, "basis-full"], [1, "flex", "items-center"], [1, "bg-sky-100", "inline-block", "relative", "rounded-lg", "w-12", "dark:bg-dark-1", "mr-3"], ["src", "assets/icons/elearning.png", "alt", "", 1, "w-12", "h-12", "inline-block", "p-3", "filter-none"], [1, "text-sm/[16px]", "font-bold", "text-sky-500"], [1, "flex", "flex-wrap", "mt-5"], [1, "mr-3", "border", "font-medium", "mb-2.5", "p-0.5", "px-3.5", "border-slate-300", "rounded-full", "dark:border-dark-border", "text-xsm/[20px]", "text-slate-500", "dark:text-slate-400"], [1, "basis-full", "flex", "justify-center", "my-3", "items-end"], [1, "drop-shadow-carousal-image-drop-shadow", "animate-elearn-animation", "bg-[length:100%_100%]", "w-64", "h-36"], ["src", "assets/icons/shopping.png", "alt", "", 1, "w-12", "h-12", "inline-block", "p-3", "filter-none"], [1, "drop-shadow-carousal-image-drop-shadow", "animate-ecommerce-animation", "bg-[length:100%_100%]", "w-64", "h-36"], ["src", "assets/icons/job.svg", "alt", "", 1, "w-12", "h-12", "inline-block", "p-3", "filter-none"], ["src", "assets/icons/fleet.svg", "alt", "", 1, "w-12", "h-12", "inline-block", "p-3", "filter-none"], ["src", "assets/icons/qanda.svg", "alt", "", 1, "w-12", "h-12", "inline-block", "p-3", "filter-none"], [1, "basis-full", "flex", "justify-center", "my-3", "relative", "items-end"], ["href", "https://www.flaticon.com/free-icons/receipt", "title", "receipt icons"], ["src", "assets/icons/billing.svg", "alt", "", 1, "w-12", "h-12", "inline-block", "p-3", "filter-none"]],
   template: function CarousalComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "owl-carousel-o", 1);
@@ -951,7 +1118,7 @@ CarousalComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0_
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CarousalComponent_ng_template_4_Template, 21, 0, "ng-template", 2);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, CarousalComponent_ng_template_5_Template, 23, 0, "ng-template", 2);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, CarousalComponent_ng_template_6_Template, 21, 0, "ng-template", 2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, CarousalComponent_ng_template_7_Template, 23, 0, "ng-template", 2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, CarousalComponent_ng_template_7_Template, 24, 0, "ng-template", 2);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
     }
     if (rf & 2) {
@@ -1469,7 +1636,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   ModelComponent: () => (/* binding */ ModelComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 6575);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ 8849);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 6575);
+
+
 
 
 
@@ -1478,102 +1648,231 @@ function ModelComponent_div_0_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 2);
   }
 }
+function ModelComponent_div_1_div_8_div_10_span_1_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Your name is required.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+}
+function ModelComponent_div_1_div_8_div_10_span_2_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Your name should be 3 character.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+}
+function ModelComponent_div_1_div_8_div_10_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ModelComponent_div_1_div_8_div_10_span_1_Template, 2, 0, "span", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ModelComponent_div_1_div_8_div_10_span_2_Template, 2, 0, "span", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r4.submitted && ctx_r4.userDataFormControls.userName.errors.required);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r4.userDataFormControls.userName.errors.minlength);
+  }
+}
+function ModelComponent_div_1_div_8_div_13_span_1_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Mail address is required.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+}
+function ModelComponent_div_1_div_8_div_13_span_2_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Email must be a valid email address.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+}
+function ModelComponent_div_1_div_8_div_13_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ModelComponent_div_1_div_8_div_13_span_1_Template, 2, 0, "span", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ModelComponent_div_1_div_8_div_13_span_2_Template, 2, 0, "span", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r5.userDataFormControls.email.errors.required);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r5.userDataFormControls.email.errors.email);
+  }
+}
+function ModelComponent_div_1_div_8_div_16_span_1_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Contact number is required.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+}
+function ModelComponent_div_1_div_8_div_16_span_2_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Contact number should be 10 digits.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+}
+function ModelComponent_div_1_div_8_div_16_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ModelComponent_div_1_div_8_div_16_span_1_Template, 2, 0, "span", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ModelComponent_div_1_div_8_div_16_span_2_Template, 2, 0, "span", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r6.submitted && ctx_r6.userDataFormControls.phone.errors.required);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r6.userDataFormControls.phone.errors.minlength);
+  }
+}
+function ModelComponent_div_1_div_8_div_19_span_1_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Your message is required.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+}
+function ModelComponent_div_1_div_8_div_19_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ModelComponent_div_1_div_8_div_19_span_1_Template, 2, 0, "span", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r7.userDataFormControls.message.errors.required);
+  }
+}
 function ModelComponent_div_1_div_8_Template(rf, ctx) {
   if (rf & 1) {
+    const _r16 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 11)(1, "h6", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " Want to get answers ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " faster? ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "span", 14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Fill out our short form brief and we are contactyou soon");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Fill out our short form brief and we are contact you soon");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "form", 15)(8, "div", 16);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "input", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, ModelComponent_div_1_div_8_div_10_Template, 3, 2, "div", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "input", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "input", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "input", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, ModelComponent_div_1_div_8_div_13_Template, 3, 2, "div", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "textarea", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "input", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, ModelComponent_div_1_div_8_div_16_Template, 3, 2, "div", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div")(17, "button", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " Send Message ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "textarea", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](19, ModelComponent_div_1_div_8_div_19_Template, 2, 1, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div")(21, "button", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ModelComponent_div_1_div_8_Template_button_click_21_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r16);
+      const ctx_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresetView"](ctx_r15.sendUserData());
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, " Send Message ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()();
+  }
+  if (rf & 2) {
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("formGroup", ctx_r2.userDataForm);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r2.userDataFormControls.userName.errors);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r2.submitted && ctx_r2.userDataFormControls.email.errors);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r2.userDataFormControls.phone.errors);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r2.submitted && ctx_r2.userDataFormControls.message.errors);
   }
 }
 function ModelComponent_div_1_div_9_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 11)(1, "p", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 11)(1, "p", 31);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius tempor incididunt ut labore et dolore magna aliqua. Ut enim adiqua minim veniam quis nostrud exercitation ullamco ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 23)(4, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 32)(4, "div", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "svg", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "path", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "svg", 34);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "path", 35);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 27)(8, "h4", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 36)(8, "h4", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Selva Kumar");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "p", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "p", 38);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " Kodambakkam, Near kodambakkam railway station. India ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "p", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "p", 38);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " (+91) 84 286 351 00 ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 23)(15, "div", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 32)(15, "div", 39);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "svg", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "path", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "svg", 34);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "path", 35);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 27)(19, "h4", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 36)(19, "h4", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Aneesh Kumar");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "p", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "p", 40);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, " Kodambakkam, Near kodambakkam railway station. India ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "p", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "p", 38);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " (+91) 79 044 451 29 ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 23)(26, "div", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 32)(26, "div", 41);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "svg", 33);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "path", 34)(29, "path", 35)(30, "path", 36);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "svg", 42);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "path", 43)(29, "path", 44)(30, "path", 45);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 27)(32, "h4", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 36)(32, "h4", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Phone Number");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "p", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "p", 40);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "(+91) 84 286 351 00");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 23)(37, "div", 37);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 32)(37, "div", 46);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "svg", 38);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "path", 39);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "svg", 47);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "path", 48);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div", 27)(41, "h4", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div", 36)(41, "h4", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "Email Address");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "p", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "p", 40);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "mail.i2Tym@gmail.com");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()();
   }
 }
 function ModelComponent_div_1_Template(rf, ctx) {
   if (rf & 1) {
-    const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    const _r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 3)(1, "div", 4)(2, "div", 5)(3, "button", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ModelComponent_div_1_Template_button_click_3_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r5);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-      return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresetView"](ctx_r4.closePopup());
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r18);
+      const ctx_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresetView"](ctx_r17.closePopup());
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "svg", 7);
@@ -1583,7 +1882,7 @@ function ModelComponent_div_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "span", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Close modal");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, ModelComponent_div_1_div_8_Template, 19, 0, "div", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, ModelComponent_div_1_div_8_Template, 23, 5, "div", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, ModelComponent_div_1_div_9_Template, 45, 0, "div", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
   }
@@ -1596,18 +1895,49 @@ function ModelComponent_div_1_Template(rf, ctx) {
   }
 }
 class ModelComponent {
-  constructor() {
+  constructor(formBuilder) {
+    this.formBuilder = formBuilder;
     this.showPopup = false;
     this.sendMail = false;
     this.contact = false;
     this.close = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.EventEmitter();
+    this.submitted = false;
+  }
+  ngOnInit() {
+    this.loadForm();
+  }
+  loadForm() {
+    this.userDataForm = this.formBuilder.group({
+      email: [null, [_angular_forms__WEBPACK_IMPORTED_MODULE_1__.Validators.required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.Validators.email]],
+      userName: [null, [_angular_forms__WEBPACK_IMPORTED_MODULE_1__.Validators.required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.Validators.minLength(3)]],
+      phone: [null, [_angular_forms__WEBPACK_IMPORTED_MODULE_1__.Validators.required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.Validators.minLength(10)]],
+      message: [null, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.Validators.required]
+    });
+    // this.isReady = true;
+  }
+
+  get userDataFormControls() {
+    return this.userDataForm.controls;
+  }
+  sendUserData() {
+    this.submitted = true;
+    if (this.userDataForm.invalid) {
+      return;
+    }
+    let updateData = {
+      email: this.userDataForm.value.email,
+      firstName: this.userDataForm.value.userName,
+      phone: this.userDataForm.value.phone,
+      message: this.userDataForm.value.message
+    };
+    console.log(updateData, 'userEditForm.value');
   }
   closePopup() {
     this.close.emit(false);
   }
 }
 ModelComponent.ɵfac = function ModelComponent_Factory(t) {
-  return new (t || ModelComponent)();
+  return new (t || ModelComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormBuilder));
 };
 ModelComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
   type: ModelComponent,
@@ -1622,7 +1952,7 @@ ModelComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["
   },
   decls: 2,
   vars: 2,
-  consts: [["class", "bg-black z-50 fixed top-0 left-0 w-screen h-screen opacity-50", 4, "ngIf"], ["class", "flex items-center justify-center fixed top-0 left-0 right-0 z-50 p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full", 4, "ngIf"], [1, "bg-black", "z-50", "fixed", "top-0", "left-0", "w-screen", "h-screen", "opacity-50"], [1, "flex", "items-center", "justify-center", "fixed", "top-0", "left-0", "right-0", "z-50", "p-4", "overflow-x-hidden", "overflow-y-auto", "md:inset-0", "h-[calc(100%-1rem)]", "max-h-full"], [1, "relative", "w-full", "max-w-md", "max-h-full"], [1, "relative", "bg-white", "rounded-lg", "shadow-modelShadow", "dark:bg-dark-1"], ["type", "button", 1, "z-50", "absolute", "top-3", "right-2.5", "text-gray-400", "bg-pageBg", "hover:text-sky-500", "rounded-full", "text-sm", "w-8", "h-8", "ml-auto", "inline-flex", "justify-center", "items-center", "dark:bg-dark-pageBg", 3, "click"], ["aria-hidden", "true", "xmlns", "http://www.w3.org/2000/svg", "fill", "none", "viewBox", "0 0 14 14", 1, "w-2", "h-2"], ["stroke", "currentColor", "stroke-linecap", "round", "stroke-linejoin", "round", "stroke-width", "2", "d", "m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"], [1, "sr-only"], ["class", "w-full rounded-lg  p-8  sm:p-12 border shadow-lg border-gray-200 dark:border-slate-50/[0.06]", 4, "ngIf"], [1, "w-full", "rounded-lg", "p-8", "sm:p-12", "border", "shadow-lg", "border-gray-200", "dark:border-slate-50/[0.06]"], [1, "text-lg", "leading-tight", "font-bold", "text-slate-700", "dark:text-slate-200"], [1, "text-sky-500"], [1, "text-xs/[16px]", "text-slate-500", "dark:text-slate-400", "text-xmd"], [1, "mt-5"], [1, "mb-6"], ["type", "text", "placeholder", "Your Name", 1, "text-sky-500", "bg-white", "dark:bg-dark-1", "border-slate-900/10", "dark:border-dark-border", "focus:border-primary", "w-full", "rounded", "border", "py-3", "px-[14px]", "text-xs", "outline-none", "focus-visible:shadow-none"], ["type", "email", "placeholder", "Your Email", 1, "text-sky-500", "bg-white", "dark:bg-dark-1", "border-slate-900/10", "dark:border-dark-border", "focus:border-primary", "w-full", "rounded", "border", "py-3", "px-[14px]", "text-xs", "outline-none", "focus-visible:shadow-none"], ["type", "text", "placeholder", "Your Phone", 1, "text-sky-500", "bg-white", "dark:bg-dark-1", "border-slate-900/10", "dark:border-dark-border", "focus:border-primary", "w-full", "rounded", "border", "py-3", "px-[14px]", "text-xs", "outline-none", "focus-visible:shadow-none"], ["rows", "6", "placeholder", "Your Message", 1, "text-sky-500", "bg-white", "dark:bg-dark-1", "border-slate-900/10", "dark:border-dark-border", "focus:border-primary", "w-full", "resize-none", "rounded", "border", "py-3", "px-[14px]", "text-xs", "outline-none", "focus-visible:shadow-none"], ["type", "submit", 1, "bg-sky-500", "border", "text-white", "border-primary", "w-full", "rounded", "border", "p-3", "hover:bg-sky-600", "border-sky-500", "dark:hover:text-white", "transition", "hover:bg-opacity-90"], [1, "text-slate-500", "dark:text-slate-400", "text-sm13", "mb-9", "text-sm", "leading-relaxed"], [1, "mb-8", "flex", "w-full", "items-start", "max-w-[370px]"], [1, "bg-purple-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "24", "height", "24", "viewBox", "0 0 24 24", 1, "w-3", "fill-white"], ["d", "M21.8182 24H16.5584C15.3896 24 14.4156 23.0256 14.4156 21.8563V17.5688C14.4156 17.1401 14.0649 16.7893 13.6364 16.7893H10.4026C9.97403 16.7893 9.62338 17.1401 9.62338 17.5688V21.8173C9.62338 22.9866 8.64935 23.961 7.48052 23.961H2.14286C0.974026 23.961 0 22.9866 0 21.8173V8.21437C0 7.62972 0.311688 7.08404 0.818182 6.77223L11.1039 0.263094C11.6494 -0.0876979 12.3896 -0.0876979 12.9351 0.263094L23.2208 6.77223C23.7273 7.08404 24 7.62972 24 8.21437V21.7783C24 23.0256 23.026 24 21.8182 24ZM10.3636 15.4251H13.5974C14.7662 15.4251 15.7403 16.3995 15.7403 17.5688V21.8173C15.7403 22.246 16.0909 22.5968 16.5195 22.5968H21.8182C22.2468 22.5968 22.5974 22.246 22.5974 21.8173V8.25335C22.5974 8.13642 22.5195 8.01949 22.4416 7.94153L12.1948 1.4324C12.0779 1.35445 11.9221 1.35445 11.8442 1.4324L1.55844 7.94153C1.44156 8.01949 1.4026 8.13642 1.4026 8.25335V21.8563C1.4026 22.285 1.75325 22.6358 2.18182 22.6358H7.48052C7.90909 22.6358 8.25974 22.285 8.25974 21.8563V17.5688C8.22078 16.3995 9.19481 15.4251 10.3636 15.4251Z"], [1, "w-full"], [1, "text-slate-700", "dark:text-slate-200", "mb-1", "text-base", "font-semibold", "leading-none", "cursor-pointer", "hover:text-sky-500", "dark:hover:text-sky-500"], [1, "text-xmd", "text-slate-500", "cursor-pointer", "hover:text-sky-500", "dark:hover:text-sky-500", "dark:text-slate-400"], [1, "bg-rose-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], [1, "text-xmd", "text-slate-500", "dark:text-slate-400", "cursor-pointer", "hover:text-sky-500", "dark:hover:text-sky-500"], [1, "bg-indigo-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "24", "height", "26", "viewBox", "0 0 24 26", 1, "w-3", "fill-white"], ["d", "M22.6149 15.1386C22.5307 14.1704 21.7308 13.4968 20.7626 13.4968H2.82869C1.86042 13.4968 1.10265 14.2125 0.97636 15.1386L0.092295 23.9793C0.0501967 24.4845 0.21859 25.0317 0.555377 25.4106C0.892163 25.7895 1.39734 26 1.94462 26H21.6887C22.1939 26 22.6991 25.7895 23.078 25.4106C23.4148 25.0317 23.5832 24.5266 23.5411 23.9793L22.6149 15.1386ZM21.9413 24.4424C21.8992 24.4845 21.815 24.5687 21.6466 24.5687H1.94462C1.81833 24.5687 1.69203 24.4845 1.64993 24.4424C1.60783 24.4003 1.52364 24.3161 1.56574 24.1477L2.4498 15.2649C2.4498 15.0544 2.61819 14.9281 2.82869 14.9281H20.8047C21.0152 14.9281 21.1415 15.0544 21.1835 15.2649L22.0676 24.1477C22.0255 24.274 21.9834 24.4003 21.9413 24.4424Z"], ["d", "M11.7965 16.7805C10.1547 16.7805 8.84961 18.0855 8.84961 19.7273C8.84961 21.3692 10.1547 22.6742 11.7965 22.6742C13.4383 22.6742 14.7434 21.3692 14.7434 19.7273C14.7434 18.0855 13.4383 16.7805 11.7965 16.7805ZM11.7965 21.2008C10.9966 21.2008 10.3231 20.5272 10.3231 19.7273C10.3231 18.9275 10.9966 18.2539 11.7965 18.2539C12.5964 18.2539 13.2699 18.9275 13.2699 19.7273C13.2699 20.5272 12.5964 21.2008 11.7965 21.2008Z"], ["d", "M1.10265 7.85562C1.18684 9.70794 2.82868 10.4657 3.67064 10.4657H6.61752C6.65962 10.4657 6.65962 10.4657 6.65962 10.4657C7.92257 10.3815 9.18552 9.53955 9.18552 7.85562V6.84526C10.5748 6.84526 13.7742 6.84526 15.1635 6.84526V7.85562C15.1635 9.53955 16.4264 10.3815 17.6894 10.4657H17.7315H20.6363C21.4782 10.4657 23.1201 9.70794 23.2043 7.85562C23.2043 7.72932 23.2043 7.26624 23.2043 6.84526C23.2043 6.50847 23.2043 6.21378 23.2043 6.17169C23.2043 6.12959 23.2043 6.08749 23.2043 6.08749C23.078 4.90874 22.657 3.94047 21.9413 3.18271L21.8992 3.14061C20.8468 2.17235 19.5838 1.62507 18.6155 1.28828C15.795 0.193726 12.2587 0.193726 12.0903 0.193726C9.6065 0.235824 8.00677 0.446315 5.60716 1.28828C4.681 1.58297 3.41805 2.13025 2.36559 3.09851L2.3235 3.14061C1.60782 3.89838 1.18684 4.86664 1.06055 6.04539C1.06055 6.08749 1.06055 6.12959 1.06055 6.12959C1.06055 6.21378 1.06055 6.46637 1.06055 6.80316C1.10265 7.18204 1.10265 7.68722 1.10265 7.85562ZM3.37595 4.15097C4.21792 3.3932 5.27038 2.93012 6.15444 2.59333C8.34355 1.79346 9.7749 1.62507 12.1745 1.58297C12.3429 1.58297 15.6266 1.62507 18.1525 2.59333C19.0365 2.93012 20.089 3.3511 20.931 4.15097C21.394 4.65615 21.6887 5.32972 21.7729 6.12959C21.7729 6.25588 21.7729 6.46637 21.7729 6.80316C21.7729 7.22414 21.7729 7.68722 21.7729 7.81352C21.7308 8.78178 20.8047 8.99227 20.6784 8.99227H17.7736C17.3526 8.95017 16.679 8.78178 16.679 7.85562V6.12959C16.679 5.7928 16.4685 5.54021 16.1738 5.41392C15.9213 5.32972 8.55405 5.32972 8.30146 5.41392C8.00677 5.49811 7.79628 5.7928 7.79628 6.12959V7.85562C7.79628 8.78178 7.1227 8.95017 6.70172 8.99227H3.79694C3.67064 8.99227 2.74448 8.78178 2.70238 7.81352C2.70238 7.68722 2.70238 7.22414 2.70238 6.80316C2.70238 6.46637 2.70238 6.29798 2.70238 6.17169C2.61818 5.32972 2.91287 4.65615 3.37595 4.15097Z"], [1, "bg-green-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "28", "height", "19", "viewBox", "0 0 28 19", 1, "w-3", "fill-white"], ["d", "M25.3636 0H2.63636C1.18182 0 0 1.16785 0 2.6052V16.3948C0 17.8322 1.18182 19 2.63636 19H25.3636C26.8182 19 28 17.8322 28 16.3948V2.6052C28 1.16785 26.8182 0 25.3636 0ZM25.3636 1.5721C25.5909 1.5721 25.7727 1.61702 25.9545 1.75177L14.6364 8.53428C14.2273 8.75886 13.7727 8.75886 13.3636 8.53428L2.04545 1.75177C2.22727 1.66194 2.40909 1.5721 2.63636 1.5721H25.3636ZM25.3636 17.383H2.63636C2.09091 17.383 1.59091 16.9338 1.59091 16.3499V3.32388L12.5 9.8818C12.9545 10.1513 13.4545 10.2861 13.9545 10.2861C14.4545 10.2861 14.9545 10.1513 15.4091 9.8818L26.3182 3.32388V16.3499C26.4091 16.9338 25.9091 17.383 25.3636 17.383Z"]],
+  consts: [["class", "bg-black z-50 fixed top-0 left-0 w-screen h-screen opacity-50", 4, "ngIf"], ["class", "flex items-center justify-center fixed top-0 left-0 right-0 z-50 p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full", 4, "ngIf"], [1, "bg-black", "z-50", "fixed", "top-0", "left-0", "w-screen", "h-screen", "opacity-50"], [1, "flex", "items-center", "justify-center", "fixed", "top-0", "left-0", "right-0", "z-50", "p-4", "overflow-x-hidden", "overflow-y-auto", "md:inset-0", "h-[calc(100%-1rem)]", "max-h-full"], [1, "relative", "w-full", "max-w-md", "max-h-full"], [1, "relative", "bg-white", "rounded-lg", "shadow-modelShadow", "dark:bg-dark-1"], ["type", "button", 1, "z-50", "absolute", "top-3", "right-2.5", "text-gray-400", "bg-pageBg", "hover:text-sky-500", "rounded-full", "text-sm", "w-8", "h-8", "ml-auto", "inline-flex", "justify-center", "items-center", "dark:bg-dark-pageBg", 3, "click"], ["aria-hidden", "true", "xmlns", "http://www.w3.org/2000/svg", "fill", "none", "viewBox", "0 0 14 14", 1, "w-2", "h-2"], ["stroke", "currentColor", "stroke-linecap", "round", "stroke-linejoin", "round", "stroke-width", "2", "d", "m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"], [1, "sr-only"], ["class", "w-full rounded-lg  p-8  sm:p-12 border shadow-lg border-gray-200 dark:border-slate-50/[0.06]", 4, "ngIf"], [1, "w-full", "rounded-lg", "p-8", "sm:p-12", "border", "shadow-lg", "border-gray-200", "dark:border-slate-50/[0.06]"], [1, "text-lg", "leading-tight", "font-bold", "text-slate-700", "dark:text-slate-200"], [1, "text-sky-500"], [1, "text-xs/[16px]", "text-slate-500", "dark:text-slate-400", "text-xmd"], ["novalidate", "novalidate", 1, "mt-5", 3, "formGroup"], [1, "mb-6"], ["type", "text", "placeholder", "Your Name", "formControlName", "userName", 1, "text-sky-500", "bg-white", "dark:bg-dark-1", "border-slate-900/10", "dark:border-dark-border", "focus:border-primary", "w-full", "rounded", "border", "py-3", "px-[14px]", "text-xs", "outline-none", "focus-visible:shadow-none"], ["class", "absolute w-100 flex items-center justify-start", 4, "ngIf"], ["type", "email", "placeholder", "Your Email", "formControlName", "email", 1, "text-sky-500", "bg-white", "dark:bg-dark-1", "border-slate-900/10", "dark:border-dark-border", "focus:border-primary", "w-full", "rounded", "border", "py-3", "px-[14px]", "text-xs", "outline-none", "focus-visible:shadow-none"], ["type", "text", "placeholder", "Your Phone", "formControlName", "phone", "maxlength", "10", "onkeypress", "return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))", 1, "text-sky-500", "bg-white", "dark:bg-dark-1", "border-slate-900/10", "dark:border-dark-border", "focus:border-primary", "w-full", "rounded", "border", "py-3", "px-[14px]", "text-xs", "outline-none", "focus-visible:shadow-none"], [1, "mb-6", "relative"], ["rows", "6", "placeholder", "Your Message", "formControlName", "message", 1, "text-sky-500", "bg-white", "dark:bg-dark-1", "border-slate-900/10", "dark:border-dark-border", "focus:border-primary", "w-full", "resize-none", "rounded", "border", "py-3", "px-[14px]", "text-xs", "outline-none", "focus-visible:shadow-none"], ["class", "absolute -bottom-2.5 w-100 flex items-center justify-start", 4, "ngIf"], ["type", "submit", 1, "bg-sky-500", "border", "text-white", "border-primary", "w-full", "rounded", "border", "p-3", "hover:bg-sky-600", "border-sky-500", "dark:hover:text-white", "transition", "hover:bg-opacity-90", 3, "click"], [1, "absolute", "w-100", "flex", "items-center", "justify-start"], ["class", "text-xsm pt-0.5 pl-0.5 text-red-500", 4, "ngIf"], [1, "text-xsm", "pt-0.5", "pl-0.5", "text-red-500"], [1, "absolute", "-bottom-2.5", "w-100", "flex", "items-center", "justify-start"], ["class", "text-xsm pl-0.5 text-red-500", 4, "ngIf"], [1, "text-xsm", "pl-0.5", "text-red-500"], [1, "text-slate-500", "dark:text-slate-400", "text-sm13", "mb-9", "text-sm", "leading-relaxed"], [1, "mb-8", "flex", "w-full", "items-start", "max-w-[370px]"], [1, "bg-purple-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "24", "height", "24", "viewBox", "0 0 24 24", 1, "w-3", "fill-white"], ["d", "M21.8182 24H16.5584C15.3896 24 14.4156 23.0256 14.4156 21.8563V17.5688C14.4156 17.1401 14.0649 16.7893 13.6364 16.7893H10.4026C9.97403 16.7893 9.62338 17.1401 9.62338 17.5688V21.8173C9.62338 22.9866 8.64935 23.961 7.48052 23.961H2.14286C0.974026 23.961 0 22.9866 0 21.8173V8.21437C0 7.62972 0.311688 7.08404 0.818182 6.77223L11.1039 0.263094C11.6494 -0.0876979 12.3896 -0.0876979 12.9351 0.263094L23.2208 6.77223C23.7273 7.08404 24 7.62972 24 8.21437V21.7783C24 23.0256 23.026 24 21.8182 24ZM10.3636 15.4251H13.5974C14.7662 15.4251 15.7403 16.3995 15.7403 17.5688V21.8173C15.7403 22.246 16.0909 22.5968 16.5195 22.5968H21.8182C22.2468 22.5968 22.5974 22.246 22.5974 21.8173V8.25335C22.5974 8.13642 22.5195 8.01949 22.4416 7.94153L12.1948 1.4324C12.0779 1.35445 11.9221 1.35445 11.8442 1.4324L1.55844 7.94153C1.44156 8.01949 1.4026 8.13642 1.4026 8.25335V21.8563C1.4026 22.285 1.75325 22.6358 2.18182 22.6358H7.48052C7.90909 22.6358 8.25974 22.285 8.25974 21.8563V17.5688C8.22078 16.3995 9.19481 15.4251 10.3636 15.4251Z"], [1, "w-full"], [1, "text-slate-700", "dark:text-slate-200", "mb-1", "text-base", "font-semibold", "leading-none", "cursor-pointer", "hover:text-sky-500", "dark:hover:text-sky-500"], [1, "text-xmd", "text-slate-500", "cursor-pointer", "hover:text-sky-500", "dark:hover:text-sky-500", "dark:text-slate-400"], [1, "bg-rose-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], [1, "text-xmd", "text-slate-500", "dark:text-slate-400", "cursor-pointer", "hover:text-sky-500", "dark:hover:text-sky-500"], [1, "bg-indigo-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "24", "height", "26", "viewBox", "0 0 24 26", 1, "w-3", "fill-white"], ["d", "M22.6149 15.1386C22.5307 14.1704 21.7308 13.4968 20.7626 13.4968H2.82869C1.86042 13.4968 1.10265 14.2125 0.97636 15.1386L0.092295 23.9793C0.0501967 24.4845 0.21859 25.0317 0.555377 25.4106C0.892163 25.7895 1.39734 26 1.94462 26H21.6887C22.1939 26 22.6991 25.7895 23.078 25.4106C23.4148 25.0317 23.5832 24.5266 23.5411 23.9793L22.6149 15.1386ZM21.9413 24.4424C21.8992 24.4845 21.815 24.5687 21.6466 24.5687H1.94462C1.81833 24.5687 1.69203 24.4845 1.64993 24.4424C1.60783 24.4003 1.52364 24.3161 1.56574 24.1477L2.4498 15.2649C2.4498 15.0544 2.61819 14.9281 2.82869 14.9281H20.8047C21.0152 14.9281 21.1415 15.0544 21.1835 15.2649L22.0676 24.1477C22.0255 24.274 21.9834 24.4003 21.9413 24.4424Z"], ["d", "M11.7965 16.7805C10.1547 16.7805 8.84961 18.0855 8.84961 19.7273C8.84961 21.3692 10.1547 22.6742 11.7965 22.6742C13.4383 22.6742 14.7434 21.3692 14.7434 19.7273C14.7434 18.0855 13.4383 16.7805 11.7965 16.7805ZM11.7965 21.2008C10.9966 21.2008 10.3231 20.5272 10.3231 19.7273C10.3231 18.9275 10.9966 18.2539 11.7965 18.2539C12.5964 18.2539 13.2699 18.9275 13.2699 19.7273C13.2699 20.5272 12.5964 21.2008 11.7965 21.2008Z"], ["d", "M1.10265 7.85562C1.18684 9.70794 2.82868 10.4657 3.67064 10.4657H6.61752C6.65962 10.4657 6.65962 10.4657 6.65962 10.4657C7.92257 10.3815 9.18552 9.53955 9.18552 7.85562V6.84526C10.5748 6.84526 13.7742 6.84526 15.1635 6.84526V7.85562C15.1635 9.53955 16.4264 10.3815 17.6894 10.4657H17.7315H20.6363C21.4782 10.4657 23.1201 9.70794 23.2043 7.85562C23.2043 7.72932 23.2043 7.26624 23.2043 6.84526C23.2043 6.50847 23.2043 6.21378 23.2043 6.17169C23.2043 6.12959 23.2043 6.08749 23.2043 6.08749C23.078 4.90874 22.657 3.94047 21.9413 3.18271L21.8992 3.14061C20.8468 2.17235 19.5838 1.62507 18.6155 1.28828C15.795 0.193726 12.2587 0.193726 12.0903 0.193726C9.6065 0.235824 8.00677 0.446315 5.60716 1.28828C4.681 1.58297 3.41805 2.13025 2.36559 3.09851L2.3235 3.14061C1.60782 3.89838 1.18684 4.86664 1.06055 6.04539C1.06055 6.08749 1.06055 6.12959 1.06055 6.12959C1.06055 6.21378 1.06055 6.46637 1.06055 6.80316C1.10265 7.18204 1.10265 7.68722 1.10265 7.85562ZM3.37595 4.15097C4.21792 3.3932 5.27038 2.93012 6.15444 2.59333C8.34355 1.79346 9.7749 1.62507 12.1745 1.58297C12.3429 1.58297 15.6266 1.62507 18.1525 2.59333C19.0365 2.93012 20.089 3.3511 20.931 4.15097C21.394 4.65615 21.6887 5.32972 21.7729 6.12959C21.7729 6.25588 21.7729 6.46637 21.7729 6.80316C21.7729 7.22414 21.7729 7.68722 21.7729 7.81352C21.7308 8.78178 20.8047 8.99227 20.6784 8.99227H17.7736C17.3526 8.95017 16.679 8.78178 16.679 7.85562V6.12959C16.679 5.7928 16.4685 5.54021 16.1738 5.41392C15.9213 5.32972 8.55405 5.32972 8.30146 5.41392C8.00677 5.49811 7.79628 5.7928 7.79628 6.12959V7.85562C7.79628 8.78178 7.1227 8.95017 6.70172 8.99227H3.79694C3.67064 8.99227 2.74448 8.78178 2.70238 7.81352C2.70238 7.68722 2.70238 7.22414 2.70238 6.80316C2.70238 6.46637 2.70238 6.29798 2.70238 6.17169C2.61818 5.32972 2.91287 4.65615 3.37595 4.15097Z"], [1, "bg-green-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "28", "height", "19", "viewBox", "0 0 28 19", 1, "w-3", "fill-white"], ["d", "M25.3636 0H2.63636C1.18182 0 0 1.16785 0 2.6052V16.3948C0 17.8322 1.18182 19 2.63636 19H25.3636C26.8182 19 28 17.8322 28 16.3948V2.6052C28 1.16785 26.8182 0 25.3636 0ZM25.3636 1.5721C25.5909 1.5721 25.7727 1.61702 25.9545 1.75177L14.6364 8.53428C14.2273 8.75886 13.7727 8.75886 13.3636 8.53428L2.04545 1.75177C2.22727 1.66194 2.40909 1.5721 2.63636 1.5721H25.3636ZM25.3636 17.383H2.63636C2.09091 17.383 1.59091 16.9338 1.59091 16.3499V3.32388L12.5 9.8818C12.9545 10.1513 13.4545 10.2861 13.9545 10.2861C14.4545 10.2861 14.9545 10.1513 15.4091 9.8818L26.3182 3.32388V16.3499C26.4091 16.9338 25.9091 17.383 25.3636 17.383Z"]],
   template: function ModelComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ModelComponent_div_0_Template, 1, 0, "div", 0);
@@ -1634,7 +1964,7 @@ ModelComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.showPopup);
     }
   },
-  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.NgIf],
+  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.NgIf, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.MaxLengthValidator, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormGroupDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormControlName],
   styles: ["/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ== */"]
 });
 
