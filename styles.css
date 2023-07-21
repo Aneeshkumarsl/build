@@ -1522,6 +1522,10 @@ video {
 .ring-opacity-5 {
   --tw-ring-opacity: 0.05 !important;
 }
+.blur {
+  --tw-blur: blur(8px) !important;
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow) !important;
+}
 .drop-shadow-carousal-image-drop-shadow {
   --tw-drop-shadow: drop-shadow(3px 27px 10px) !important;
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow) !important;

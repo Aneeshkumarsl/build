@@ -82,7 +82,13 @@ const _c0 = function (a0) {
 class AppComponent {
   constructor(themeService) {
     this.themeService = themeService;
-    this.title = 'portfolio';
+    this.title = 'Portfolio';
+    window.addEventListener("blur", () => {
+      document.title = "Come Back 😎";
+    });
+    window.addEventListener("focus", () => {
+      document.title = this.title;
+    });
   }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) {
