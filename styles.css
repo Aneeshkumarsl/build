@@ -897,13 +897,13 @@ video {
 }
 @keyframes ecommerce {
   0% {
-    background: url('/assets/images/ecom_slide_1.png');
+    background: url('/portfolio_build/assets/images/ecom_slide_1.png');
   }
   50% {
-    background: url('/assets/images/ecom_slide_2.png');
+    background: url('/portfolio_build/assets/images/ecom_slide_2.png');
   }
   100% {
-    background: url('/assets/images/ecom_slide_1.png');
+    background: url('/portfolio_build/assets/images/ecom_slide_1.png');
   }
 }
 .animate-ecommerce-animation {
@@ -911,13 +911,13 @@ video {
 }
 @keyframes elearn {
   0% {
-    background: url('/assets/images/elearn_slide_1.png');
+    background: url('/portfolio_build/assets/images/elearn_slide_1.png');
   }
   50% {
-    background: url('/assets/images/elearn_slide_2.png');
+    background: url('/portfolio_build/assets/images/elearn_slide_2.png');
   }
   100% {
-    background: url('/assets/images/elearn_slide_1.png');
+    background: url('/portfolio_build/assets/images/elearn_slide_1.png');
   }
 }
 .animate-elearn-animation {
