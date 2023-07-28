@@ -701,9 +701,6 @@ video {
 .mr-1 {
   margin-right: 0.25rem !important;
 }
-.mr-16 {
-  margin-right: 4rem !important;
-}
 .mr-2 {
   margin-right: 0.5rem !important;
 }
@@ -856,6 +853,9 @@ video {
 }
 .w-9 {
   width: 2.25rem !important;
+}
+.w-\[120px\] {
+  width: 120px !important;
 }
 .w-\[17px\] {
   width: 17px !important;
@@ -1272,20 +1272,8 @@ video {
 .fill-current {
   fill: currentColor !important;
 }
-.fill-fuchsia-500 {
-  fill: #d946ef !important;
-}
-.fill-green-500 {
-  fill: #22c55e !important;
-}
-.fill-orange-500 {
-  fill: #f97316 !important;
-}
 .fill-sky-500 {
   fill: #0ea5e9 !important;
-}
-.fill-teal-500 {
-  fill: #14b8a6 !important;
 }
 .fill-white {
   fill: #fff !important;
@@ -1424,6 +1412,9 @@ video {
 .text-\[7px\] {
   font-size: 7px !important;
 }
+.text-\[8px\] {
+  font-size: 8px !important;
+}
 .text-sm-11 {
   font-size: 11px !important;
 }
@@ -1498,6 +1489,10 @@ video {
 .text-indigo-400 {
   --tw-text-opacity: 1 !important;
   color: rgb(129 140 248 / var(--tw-text-opacity)) !important;
+}
+.text-indigo-500 {
+  --tw-text-opacity: 1 !important;
+  color: rgb(99 102 241 / var(--tw-text-opacity)) !important;
 }
 .text-orange-500 {
   --tw-text-opacity: 1 !important;
@@ -1956,16 +1951,18 @@ body {
   display: inline-flex;
 }
 
-.our_service_dtls .owl-carousel .owl-stage {
-  margin-left: 3px;
-}
 .our_service_dtls .owl-carousel .owl-item {
+  width: 130px !important;
   padding: 0px;
   border: none;
   display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  margin-right: 14px !important;
 }
-.our_service_dtls .owl-carousel .owl-stage-outer {
-  margin: 0 45px;
+.our_service_dtls .owl-carousel .owl-stage {
+  justify-content: center;
 }
 .our_service_dtls .owl-theme .owl-nav {
   margin-top: unset !important;
@@ -2283,6 +2280,9 @@ body {
   .sm\:mb-0 {
     margin-bottom: 0px !important;
   }
+  .sm\:block {
+    display: block !important;
+  }
   .sm\:flex {
     display: flex !important;
   }
@@ -2388,6 +2388,9 @@ body {
   }
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+  .md\:whitespace-nowrap {
+    white-space: nowrap !important;
   }
   .md\:p-2 {
     padding: 0.5rem !important;
