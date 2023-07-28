@@ -616,80 +616,132 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 1699);
 
 
-class ContactDetailsBlockComponent {}
+
+function ContactDetailsBlockComponent_p_1_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " If you are driven, ambitious, and ready to make an impact, we would love to hear from you. Join us on this exciting journey as we shape the future together. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+}
+class ContactDetailsBlockComponent {
+  constructor() {
+    this.contact = false;
+  }
+}
 ContactDetailsBlockComponent.ɵfac = function ContactDetailsBlockComponent_Factory(t) {
   return new (t || ContactDetailsBlockComponent)();
 };
 ContactDetailsBlockComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
   type: ContactDetailsBlockComponent,
   selectors: [["contact-details-block"]],
+  inputs: {
+    contact: "contact"
+  },
   standalone: true,
   features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵStandaloneFeature"]],
-  decls: 45,
-  vars: 0,
-  consts: [[1, "text-slate-500", "dark:text-slate-400", "text-sm13", "mb-9", "text-sm", "leading-relaxed"], [1, "mb-8", "flex", "w-full", "items-start", "max-w-[370px]"], [1, "bg-purple-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "24", "height", "24", "viewBox", "0 0 24 24", 1, "w-3", "fill-white"], ["d", "M21.8182 24H16.5584C15.3896 24 14.4156 23.0256 14.4156 21.8563V17.5688C14.4156 17.1401 14.0649 16.7893 13.6364 16.7893H10.4026C9.97403 16.7893 9.62338 17.1401 9.62338 17.5688V21.8173C9.62338 22.9866 8.64935 23.961 7.48052 23.961H2.14286C0.974026 23.961 0 22.9866 0 21.8173V8.21437C0 7.62972 0.311688 7.08404 0.818182 6.77223L11.1039 0.263094C11.6494 -0.0876979 12.3896 -0.0876979 12.9351 0.263094L23.2208 6.77223C23.7273 7.08404 24 7.62972 24 8.21437V21.7783C24 23.0256 23.026 24 21.8182 24ZM10.3636 15.4251H13.5974C14.7662 15.4251 15.7403 16.3995 15.7403 17.5688V21.8173C15.7403 22.246 16.0909 22.5968 16.5195 22.5968H21.8182C22.2468 22.5968 22.5974 22.246 22.5974 21.8173V8.25335C22.5974 8.13642 22.5195 8.01949 22.4416 7.94153L12.1948 1.4324C12.0779 1.35445 11.9221 1.35445 11.8442 1.4324L1.55844 7.94153C1.44156 8.01949 1.4026 8.13642 1.4026 8.25335V21.8563C1.4026 22.285 1.75325 22.6358 2.18182 22.6358H7.48052C7.90909 22.6358 8.25974 22.285 8.25974 21.8563V17.5688C8.22078 16.3995 9.19481 15.4251 10.3636 15.4251Z"], [1, "w-full"], [1, "text-slate-700", "dark:text-slate-200", "mb-1", "text-base", "font-semibold", "leading-none", "cursor-pointer", "hover:text-sky-500", "dark:hover:text-sky-500"], [1, "text-xmd", "text-slate-500", "cursor-pointer", "hover:text-sky-500", "dark:hover:text-sky-500", "dark:text-slate-400"], [1, "bg-rose-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], [1, "text-xmd", "text-slate-500", "dark:text-slate-400", "cursor-pointer", "hover:text-sky-500", "dark:hover:text-sky-500"], [1, "bg-indigo-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "24", "height", "26", "viewBox", "0 0 24 26", 1, "w-3", "fill-white"], ["d", "M22.6149 15.1386C22.5307 14.1704 21.7308 13.4968 20.7626 13.4968H2.82869C1.86042 13.4968 1.10265 14.2125 0.97636 15.1386L0.092295 23.9793C0.0501967 24.4845 0.21859 25.0317 0.555377 25.4106C0.892163 25.7895 1.39734 26 1.94462 26H21.6887C22.1939 26 22.6991 25.7895 23.078 25.4106C23.4148 25.0317 23.5832 24.5266 23.5411 23.9793L22.6149 15.1386ZM21.9413 24.4424C21.8992 24.4845 21.815 24.5687 21.6466 24.5687H1.94462C1.81833 24.5687 1.69203 24.4845 1.64993 24.4424C1.60783 24.4003 1.52364 24.3161 1.56574 24.1477L2.4498 15.2649C2.4498 15.0544 2.61819 14.9281 2.82869 14.9281H20.8047C21.0152 14.9281 21.1415 15.0544 21.1835 15.2649L22.0676 24.1477C22.0255 24.274 21.9834 24.4003 21.9413 24.4424Z"], ["d", "M11.7965 16.7805C10.1547 16.7805 8.84961 18.0855 8.84961 19.7273C8.84961 21.3692 10.1547 22.6742 11.7965 22.6742C13.4383 22.6742 14.7434 21.3692 14.7434 19.7273C14.7434 18.0855 13.4383 16.7805 11.7965 16.7805ZM11.7965 21.2008C10.9966 21.2008 10.3231 20.5272 10.3231 19.7273C10.3231 18.9275 10.9966 18.2539 11.7965 18.2539C12.5964 18.2539 13.2699 18.9275 13.2699 19.7273C13.2699 20.5272 12.5964 21.2008 11.7965 21.2008Z"], ["d", "M1.10265 7.85562C1.18684 9.70794 2.82868 10.4657 3.67064 10.4657H6.61752C6.65962 10.4657 6.65962 10.4657 6.65962 10.4657C7.92257 10.3815 9.18552 9.53955 9.18552 7.85562V6.84526C10.5748 6.84526 13.7742 6.84526 15.1635 6.84526V7.85562C15.1635 9.53955 16.4264 10.3815 17.6894 10.4657H17.7315H20.6363C21.4782 10.4657 23.1201 9.70794 23.2043 7.85562C23.2043 7.72932 23.2043 7.26624 23.2043 6.84526C23.2043 6.50847 23.2043 6.21378 23.2043 6.17169C23.2043 6.12959 23.2043 6.08749 23.2043 6.08749C23.078 4.90874 22.657 3.94047 21.9413 3.18271L21.8992 3.14061C20.8468 2.17235 19.5838 1.62507 18.6155 1.28828C15.795 0.193726 12.2587 0.193726 12.0903 0.193726C9.6065 0.235824 8.00677 0.446315 5.60716 1.28828C4.681 1.58297 3.41805 2.13025 2.36559 3.09851L2.3235 3.14061C1.60782 3.89838 1.18684 4.86664 1.06055 6.04539C1.06055 6.08749 1.06055 6.12959 1.06055 6.12959C1.06055 6.21378 1.06055 6.46637 1.06055 6.80316C1.10265 7.18204 1.10265 7.68722 1.10265 7.85562ZM3.37595 4.15097C4.21792 3.3932 5.27038 2.93012 6.15444 2.59333C8.34355 1.79346 9.7749 1.62507 12.1745 1.58297C12.3429 1.58297 15.6266 1.62507 18.1525 2.59333C19.0365 2.93012 20.089 3.3511 20.931 4.15097C21.394 4.65615 21.6887 5.32972 21.7729 6.12959C21.7729 6.25588 21.7729 6.46637 21.7729 6.80316C21.7729 7.22414 21.7729 7.68722 21.7729 7.81352C21.7308 8.78178 20.8047 8.99227 20.6784 8.99227H17.7736C17.3526 8.95017 16.679 8.78178 16.679 7.85562V6.12959C16.679 5.7928 16.4685 5.54021 16.1738 5.41392C15.9213 5.32972 8.55405 5.32972 8.30146 5.41392C8.00677 5.49811 7.79628 5.7928 7.79628 6.12959V7.85562C7.79628 8.78178 7.1227 8.95017 6.70172 8.99227H3.79694C3.67064 8.99227 2.74448 8.78178 2.70238 7.81352C2.70238 7.68722 2.70238 7.22414 2.70238 6.80316C2.70238 6.46637 2.70238 6.29798 2.70238 6.17169C2.61818 5.32972 2.91287 4.65615 3.37595 4.15097Z"], [1, "bg-green-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "28", "height", "19", "viewBox", "0 0 28 19", 1, "w-3", "fill-white"], ["d", "M25.3636 0H2.63636C1.18182 0 0 1.16785 0 2.6052V16.3948C0 17.8322 1.18182 19 2.63636 19H25.3636C26.8182 19 28 17.8322 28 16.3948V2.6052C28 1.16785 26.8182 0 25.3636 0ZM25.3636 1.5721C25.5909 1.5721 25.7727 1.61702 25.9545 1.75177L14.6364 8.53428C14.2273 8.75886 13.7727 8.75886 13.3636 8.53428L2.04545 1.75177C2.22727 1.66194 2.40909 1.5721 2.63636 1.5721H25.3636ZM25.3636 17.383H2.63636C2.09091 17.383 1.59091 16.9338 1.59091 16.3499V3.32388L12.5 9.8818C12.9545 10.1513 13.4545 10.2861 13.9545 10.2861C14.4545 10.2861 14.9545 10.1513 15.4091 9.8818L26.3182 3.32388V16.3499C26.4091 16.9338 25.9091 17.383 25.3636 17.383Z"]],
+  decls: 85,
+  vars: 1,
+  consts: [["class", "text-slate-500 dark:text-slate-400 text-sm13 mb-9 text-sm leading-relaxed", 4, "ngIf"], [1, "mb-8", "flex", "w-full", "items-start", "max-w-[370px]"], [1, "bg-purple-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "24", "height", "24", "viewBox", "0 0 24 24", 1, "w-3", "fill-white"], ["d", "M21.8182 24H16.5584C15.3896 24 14.4156 23.0256 14.4156 21.8563V17.5688C14.4156 17.1401 14.0649 16.7893 13.6364 16.7893H10.4026C9.97403 16.7893 9.62338 17.1401 9.62338 17.5688V21.8173C9.62338 22.9866 8.64935 23.961 7.48052 23.961H2.14286C0.974026 23.961 0 22.9866 0 21.8173V8.21437C0 7.62972 0.311688 7.08404 0.818182 6.77223L11.1039 0.263094C11.6494 -0.0876979 12.3896 -0.0876979 12.9351 0.263094L23.2208 6.77223C23.7273 7.08404 24 7.62972 24 8.21437V21.7783C24 23.0256 23.026 24 21.8182 24ZM10.3636 15.4251H13.5974C14.7662 15.4251 15.7403 16.3995 15.7403 17.5688V21.8173C15.7403 22.246 16.0909 22.5968 16.5195 22.5968H21.8182C22.2468 22.5968 22.5974 22.246 22.5974 21.8173V8.25335C22.5974 8.13642 22.5195 8.01949 22.4416 7.94153L12.1948 1.4324C12.0779 1.35445 11.9221 1.35445 11.8442 1.4324L1.55844 7.94153C1.44156 8.01949 1.4026 8.13642 1.4026 8.25335V21.8563C1.4026 22.285 1.75325 22.6358 2.18182 22.6358H7.48052C7.90909 22.6358 8.25974 22.285 8.25974 21.8563V17.5688C8.22078 16.3995 9.19481 15.4251 10.3636 15.4251Z"], [1, "w-full"], [1, "text-slate-700", "dark:text-slate-200", "mb-1", "text-base", "font-semibold", "leading-none", "hover:text-sky-500", "dark:hover:text-sky-500"], [1, "mt-3"], ["href", "https://wa.me/7010275261?text=", "target", "_blank", 1, "relative", "has-tooltip", "cursor-pointer", "mr-2", "text-white", "bg-green-500", "border", "border-green-500", "focus:outline-none", "focus:ring-green-500", "font-medium", "rounded-full", "text-sm", "p-1", "text-center", "inline-flex", "items-center"], [1, "mdi", "mdi-whatsapp", "flex", "items-center", "justify-center", "w-6", "text-base"], [1, "tooltip", "rounded", "shadow", "p-1", "bg-sky-500", "dark:bg-dark-pageBg", "-mt-8", "text-white", "dark:text-slate-300", "text-[7px]", "leading-[8px]", "font-semibold", "p-2.5", "top-[26px]", "left-[42px]"], ["width", "9px", "height", "16px", "viewBox", "0 0 9 16", "version", "1.1", "xmlns", "http://www.w3.org/2000/svg", 0, "xmlns", "xlink", "http://www.w3.org/1999/xlink", 1, "absolute", "left-0", "-ml-2", "bottom-0", "top-0", "h-full"], ["id", "Page-1", "stroke", "none", "stroke-width", "1", "fill", "none", "fill-rule", "evenodd"], ["id", "Tooltips-", "transform", "translate(-874.000000, -1029.000000)", 1, "fill-sky-500", "dark:fill-dark-pageBg", "shadow"], ["id", "Group-3-Copy-16", "transform", "translate(850.000000, 975.000000)"], ["id", "Group-2", "transform", "translate(24.000000, 0.000000)"], ["id", "Triangle", "transform", "translate(4.500000, 62.000000) rotate(-90.000000) translate(-4.500000, -62.000000) ", "points", "4.5 57.5 12.5 66.5 -3.5 66.5"], [1, "relative", "has-tooltip", "cursor-pointer", "mr-2", "text-white", "border", "border-sky-500", "bg-sky-500", "focus:outline-none", "focus:ring-sky-500", "font-medium", "rounded-full", "text-sm", "p-1", "text-center", "inline-flex", "items-center"], [1, "mdi", "mdi-facebook", "flex", "items-center", "justify-center", "w-6", "text-base"], [1, "relative", "has-tooltip", "cursor-pointer", "mr-2", "text-white", "border", "border-pink-500", "bg-pink-500", "focus:outline-none", "focus:ring-pink-500", "font-medium", "rounded-full", "text-sm", "p-1", "text-center", "inline-flex", "items-center"], [1, "mdi", "mdi-instagram", "flex", "items-center", "justify-center", "w-6", "text-base"], [1, "relative", "has-tooltip", "cursor-pointer", "text-white", "border", "border-blue-700", "bg-blue-700", "focus:outline-none", "focus:ring-blue-700", "font-medium", "rounded-full", "text-sm", "p-1", "text-center", "inline-flex", "items-center"], [1, "mdi", "mdi-linkedin", "flex", "items-center", "justify-center", "w-6", "text-base"], [1, "bg-rose-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], [1, "text-xmd", "text-slate-500", "dark:text-slate-400", "hover:text-sky-500", "dark:hover:text-sky-500"], [1, "text-xmd", "text-slate-500", "hover:text-sky-500", "dark:hover:text-sky-500", "dark:text-slate-400"], [1, "bg-indigo-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "24", "height", "26", "viewBox", "0 0 24 26", 1, "w-3", "fill-white"], ["d", "M22.6149 15.1386C22.5307 14.1704 21.7308 13.4968 20.7626 13.4968H2.82869C1.86042 13.4968 1.10265 14.2125 0.97636 15.1386L0.092295 23.9793C0.0501967 24.4845 0.21859 25.0317 0.555377 25.4106C0.892163 25.7895 1.39734 26 1.94462 26H21.6887C22.1939 26 22.6991 25.7895 23.078 25.4106C23.4148 25.0317 23.5832 24.5266 23.5411 23.9793L22.6149 15.1386ZM21.9413 24.4424C21.8992 24.4845 21.815 24.5687 21.6466 24.5687H1.94462C1.81833 24.5687 1.69203 24.4845 1.64993 24.4424C1.60783 24.4003 1.52364 24.3161 1.56574 24.1477L2.4498 15.2649C2.4498 15.0544 2.61819 14.9281 2.82869 14.9281H20.8047C21.0152 14.9281 21.1415 15.0544 21.1835 15.2649L22.0676 24.1477C22.0255 24.274 21.9834 24.4003 21.9413 24.4424Z"], ["d", "M11.7965 16.7805C10.1547 16.7805 8.84961 18.0855 8.84961 19.7273C8.84961 21.3692 10.1547 22.6742 11.7965 22.6742C13.4383 22.6742 14.7434 21.3692 14.7434 19.7273C14.7434 18.0855 13.4383 16.7805 11.7965 16.7805ZM11.7965 21.2008C10.9966 21.2008 10.3231 20.5272 10.3231 19.7273C10.3231 18.9275 10.9966 18.2539 11.7965 18.2539C12.5964 18.2539 13.2699 18.9275 13.2699 19.7273C13.2699 20.5272 12.5964 21.2008 11.7965 21.2008Z"], ["d", "M1.10265 7.85562C1.18684 9.70794 2.82868 10.4657 3.67064 10.4657H6.61752C6.65962 10.4657 6.65962 10.4657 6.65962 10.4657C7.92257 10.3815 9.18552 9.53955 9.18552 7.85562V6.84526C10.5748 6.84526 13.7742 6.84526 15.1635 6.84526V7.85562C15.1635 9.53955 16.4264 10.3815 17.6894 10.4657H17.7315H20.6363C21.4782 10.4657 23.1201 9.70794 23.2043 7.85562C23.2043 7.72932 23.2043 7.26624 23.2043 6.84526C23.2043 6.50847 23.2043 6.21378 23.2043 6.17169C23.2043 6.12959 23.2043 6.08749 23.2043 6.08749C23.078 4.90874 22.657 3.94047 21.9413 3.18271L21.8992 3.14061C20.8468 2.17235 19.5838 1.62507 18.6155 1.28828C15.795 0.193726 12.2587 0.193726 12.0903 0.193726C9.6065 0.235824 8.00677 0.446315 5.60716 1.28828C4.681 1.58297 3.41805 2.13025 2.36559 3.09851L2.3235 3.14061C1.60782 3.89838 1.18684 4.86664 1.06055 6.04539C1.06055 6.08749 1.06055 6.12959 1.06055 6.12959C1.06055 6.21378 1.06055 6.46637 1.06055 6.80316C1.10265 7.18204 1.10265 7.68722 1.10265 7.85562ZM3.37595 4.15097C4.21792 3.3932 5.27038 2.93012 6.15444 2.59333C8.34355 1.79346 9.7749 1.62507 12.1745 1.58297C12.3429 1.58297 15.6266 1.62507 18.1525 2.59333C19.0365 2.93012 20.089 3.3511 20.931 4.15097C21.394 4.65615 21.6887 5.32972 21.7729 6.12959C21.7729 6.25588 21.7729 6.46637 21.7729 6.80316C21.7729 7.22414 21.7729 7.68722 21.7729 7.81352C21.7308 8.78178 20.8047 8.99227 20.6784 8.99227H17.7736C17.3526 8.95017 16.679 8.78178 16.679 7.85562V6.12959C16.679 5.7928 16.4685 5.54021 16.1738 5.41392C15.9213 5.32972 8.55405 5.32972 8.30146 5.41392C8.00677 5.49811 7.79628 5.7928 7.79628 6.12959V7.85562C7.79628 8.78178 7.1227 8.95017 6.70172 8.99227H3.79694C3.67064 8.99227 2.74448 8.78178 2.70238 7.81352C2.70238 7.68722 2.70238 7.22414 2.70238 6.80316C2.70238 6.46637 2.70238 6.29798 2.70238 6.17169C2.61818 5.32972 2.91287 4.65615 3.37595 4.15097Z"], [1, "flex", "w-full", "items-start", "max-w-[370px]"], [1, "bg-green-500", "flex-shrink-0", "inline-flex", "items-center", "justify-center", "mr-6", "w-8", "h-8", "rounded", "overflow-hidden", "rounded"], ["width", "28", "height", "19", "viewBox", "0 0 28 19", 1, "w-3", "fill-white"], ["d", "M25.3636 0H2.63636C1.18182 0 0 1.16785 0 2.6052V16.3948C0 17.8322 1.18182 19 2.63636 19H25.3636C26.8182 19 28 17.8322 28 16.3948V2.6052C28 1.16785 26.8182 0 25.3636 0ZM25.3636 1.5721C25.5909 1.5721 25.7727 1.61702 25.9545 1.75177L14.6364 8.53428C14.2273 8.75886 13.7727 8.75886 13.3636 8.53428L2.04545 1.75177C2.22727 1.66194 2.40909 1.5721 2.63636 1.5721H25.3636ZM25.3636 17.383H2.63636C2.09091 17.383 1.59091 16.9338 1.59091 16.3499V3.32388L12.5 9.8818C12.9545 10.1513 13.4545 10.2861 13.9545 10.2861C14.4545 10.2861 14.9545 10.1513 15.4091 9.8818L26.3182 3.32388V16.3499C26.4091 16.9338 25.9091 17.383 25.3636 17.383Z"], [1, "text-slate-500", "dark:text-slate-400", "text-sm13", "mb-9", "text-sm", "leading-relaxed"]],
   template: function ContactDetailsBlockComponent_Template(rf, ctx) {
     if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div")(1, "p", 0);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius tempor incididunt ut labore et dolore magna aliqua. Ut enim adiqua minim veniam quis nostrud exercitation ullamco ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 1)(4, "div", 2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ContactDetailsBlockComponent_p_1_Template, 2, 0, "p", 0);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1)(3, "div", 2);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "svg", 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "path", 4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "svg", 3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "path", 4);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 5)(8, "h4", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " Selva Kumar");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 5)(7, "h4", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " Contact US");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "p", 7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " Kodambakkam, Near kodambakkam railway station. India ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 7)(10, "a", 8);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "i", 9);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 10)(13, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Click here to join our community!");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "p", 7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " (+91) 84 286 351 00 ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "svg", 11)(16, "g", 12)(17, "g", 13)(18, "g", 14)(19, "g", 15);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "polygon", 16);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 17);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "i", 18);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 10)(24, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Click here to join our community!");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "svg", 11)(27, "g", 12)(28, "g", 13)(29, "g", 14)(30, "g", 15);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "polygon", 16);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "i", 20);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 10)(35, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Click here to join our community!");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "svg", 11)(38, "g", 12)(39, "g", 13)(40, "g", 14)(41, "g", 15);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "polygon", 16);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "a", 21);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "i", 22);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 10)(46, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Click here to join our community!");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "svg", 11)(49, "g", 12)(50, "g", 13)(51, "g", 14)(52, "g", 15);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](53, "polygon", 16);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 1)(55, "div", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "svg", 3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](57, "path", 4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "div", 5)(59, "h4", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, " i2Tym");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "p", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, " Kodambakkam, Near kodambakkam railway station. India ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "p", 25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, " 60001 ");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 1)(15, "div", 8);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 1)(66, "div", 26);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "svg", 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "path", 4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "svg", 27);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](68, "path", 28)(69, "path", 29)(70, "path", 30);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 5)(19, "h4", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, " Aneesh Kumar");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 5)(72, "h4", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, " Phone Number");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "p", 9);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, " Kodambakkam, Near kodambakkam railway station. India ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "p", 7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " (+91) 79 044 451 29 ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "p", 25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, " (+91) 70 102 752 61");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 1)(26, "div", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "div", 31)(77, "div", 32);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "svg", 11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "path", 12)(29, "path", 13)(30, "path", 14);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "svg", 33);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](79, "path", 34);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 5)(32, "h4", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, " Phone Number");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "div", 5)(81, "h4", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](82, " Email Address");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "p", 7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, " (+91) 70 102 752 61");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 1)(37, "div", 15);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "svg", 16);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "path", 17);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div", 5)(41, "h4", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, " Email Address");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "p", 9);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, " mail.i2Tym@gmail.com");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "p", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, " mail.i2Tym@gmail.com");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()();
     }
+    if (rf & 2) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.contact);
+    }
   },
-  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.CommonModule],
+  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.CommonModule, _angular_common__WEBPACK_IMPORTED_MODULE_1__.NgIf],
   styles: ["/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ== */"]
 });
 
@@ -1202,7 +1254,7 @@ FooterComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__[
   selectors: [["app-footer"]],
   decls: 30,
   vars: 1,
-  consts: [[1, "bg-white", "mt-14", "dark:bg-dark-1", "border-t", "border-slate-900/10", "dark:border-slate-50/[0.06]"], [1, "w-full", "max-w-screen-xl", "mx-auto", "p-4", "md:py-6", "px-7"], [1, "sm:flex", "sm:items-center", "sm:justify-between"], [1, "text-sky-500", "mr-3", "flex-none", "overflow-hidden", "md:w-auto", "text-lg", "font-bold", 3, "click"], [1, "inline-flex", "items-center", "relative"], ["src", "assets/images/Logo.png", "alt", "Logo", 1, "w-12"], [1, "text-slate-700", "dark:text-slate-200", "top-6", "left-9", "text-xs/[2.4]", "font-black"], [1, "capitalize", "text-sky-500", "relative", "text-[6px]", "font-black", "top-[10px]", "right-[26px]", "tracking-wide"], [1, "flex", "flex-wrap", "items-center", "mb-6", "text-sm", "font-medium", "sm:mb-0", "text-slate-700", "dark:text-slate-200"], ["href", "javascript:;", 1, "mr-4", "hover:underline", "md:mr-6", "text-xs", "hover:text-sky-500", "dark:hover:text-sky-400", 3, "click"], ["href", "javascript:;", 1, "hover:underline", "text-xs", "hover:text-sky-500", "dark:hover:text-sky-400", 3, "click"], [1, "my-6", "border-gray-200", "sm:mx-auto", "dark:border-gray-700", "lg:mt-4", "lg:mb-8"], [1, "block", "text-sm", "text-slate-500", "dark:text-slate-400", "sm:text-center", "dark:text-gray-400"], ["href", "javascript:;", 1, "hover:underline"]],
+  consts: [[1, "bg-white", "mt-14", "dark:bg-dark-1", "border-t", "border-slate-900/10", "dark:border-slate-50/[0.06]"], [1, "w-full", "max-w-screen-xl", "mx-auto", "p-4", "md:py-6", "px-7"], [1, "sm:flex", "sm:items-center", "sm:justify-between"], [1, "text-sky-500", "mr-3", "flex-none", "overflow-hidden", "md:w-auto", "text-lg", "font-bold", 3, "click"], [1, "inline-flex", "items-center", "relative"], ["src", "assets/images/Logo.png", "alt", "Logo", 1, "w-12"], [1, "text-slate-700", "dark:text-slate-200", "top-6", "left-9", "text-xs/[2.4]", "font-black"], [1, "capitalize", "text-sky-500", "relative", "text-[6px]", "font-black", "top-[10px]", "right-[26px]", "tracking-wide"], [1, "flex", "flex-wrap", "justify-center", "items-center", "mb-6", "text-sm", "font-medium", "sm:mb-0", "text-slate-700", "dark:text-slate-200"], ["href", "javascript:;", 1, "mr-4", "hover:underline", "md:mr-6", "text-xs", "hover:text-sky-500", "dark:hover:text-sky-400", 3, "click"], ["href", "javascript:;", 1, "hover:underline", "text-xs", "hover:text-sky-500", "dark:hover:text-sky-400", 3, "click"], [1, "my-6", "border-gray-200", "sm:mx-auto", "dark:border-gray-700", "lg:mt-4", "lg:mb-8"], [1, "block", "text-sm", "text-slate-500", "dark:text-slate-400", "text-center", "dark:text-gray-400"], ["href", "javascript:;", 1, "hover:underline"]],
   template: function FooterComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "footer", 0)(1, "div", 1)(2, "div", 2)(3, "button", 3);
@@ -1528,7 +1580,11 @@ function ModelComponent_div_1_send_details_block_9_Template(rf, ctx) {
 }
 function ModelComponent_div_1_contact_details_block_10_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](0, "contact-details-block");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](0, "contact-details-block", 14);
+  }
+  if (rf & 2) {
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("contact", ctx_r3.contact);
   }
 }
 function ModelComponent_div_1_Template(rf, ctx) {
@@ -1550,7 +1606,7 @@ function ModelComponent_div_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "div", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](9, ModelComponent_div_1_send_details_block_9_Template, 1, 0, "send-details-block", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](10, ModelComponent_div_1_contact_details_block_10_Template, 1, 0, "contact-details-block", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](10, ModelComponent_div_1_contact_details_block_10_Template, 1, 1, "contact-details-block", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
   }
   if (rf & 2) {
@@ -1588,7 +1644,7 @@ ModelComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["
   },
   decls: 2,
   vars: 2,
-  consts: [["class", "bg-black z-50 fixed top-0 left-0 w-screen h-screen opacity-50", 4, "ngIf"], ["class", "flex items-center justify-center fixed top-0 left-0 right-0 z-50 p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full", 4, "ngIf"], [1, "bg-black", "z-50", "fixed", "top-0", "left-0", "w-screen", "h-screen", "opacity-50"], [1, "flex", "items-center", "justify-center", "fixed", "top-0", "left-0", "right-0", "z-50", "p-4", "overflow-x-hidden", "overflow-y-auto", "md:inset-0", "h-[calc(100%-1rem)]", "max-h-full"], [1, "relative", "w-full", "max-w-md", "max-h-full"], [1, "relative", "bg-white", "rounded-lg", "shadow-modelShadow", "dark:bg-dark-1"], ["type", "button", 1, "z-50", "absolute", "top-3", "right-2.5", "text-gray-400", "bg-pageBg", "hover:text-sky-500", "rounded-full", "text-sm", "w-8", "h-8", "ml-auto", "inline-flex", "justify-center", "items-center", "dark:bg-dark-pageBg", 3, "click"], ["aria-hidden", "true", "xmlns", "http://www.w3.org/2000/svg", "fill", "none", "viewBox", "0 0 14 14", 1, "w-2", "h-2"], ["stroke", "currentColor", "stroke-linecap", "round", "stroke-linejoin", "round", "stroke-width", "2", "d", "m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"], [1, "sr-only"], [1, "w-full", "rounded-lg", "p-8", "sm:p-12", "border", "shadow-lg", "border-gray-200", "dark:border-slate-50/[0.06]"], [3, "close", 4, "ngIf"], [4, "ngIf"], [3, "close"]],
+  consts: [["class", "bg-black z-50 fixed top-0 left-0 w-screen h-screen opacity-50", 4, "ngIf"], ["class", "flex items-center justify-center fixed top-0 left-0 right-0 z-50 p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full", 4, "ngIf"], [1, "bg-black", "z-50", "fixed", "top-0", "left-0", "w-screen", "h-screen", "opacity-50"], [1, "flex", "items-center", "justify-center", "fixed", "top-0", "left-0", "right-0", "z-50", "p-4", "overflow-x-hidden", "overflow-y-auto", "md:inset-0", "h-[calc(100%-1rem)]", "max-h-full"], [1, "relative", "w-full", "max-w-md", "max-h-full"], [1, "relative", "bg-white", "rounded-lg", "shadow-modelShadow", "dark:bg-dark-1"], ["type", "button", 1, "z-50", "absolute", "top-3", "right-2.5", "text-gray-400", "bg-pageBg", "hover:text-sky-500", "rounded-full", "text-sm", "w-8", "h-8", "ml-auto", "inline-flex", "justify-center", "items-center", "dark:bg-dark-pageBg", 3, "click"], ["aria-hidden", "true", "xmlns", "http://www.w3.org/2000/svg", "fill", "none", "viewBox", "0 0 14 14", 1, "w-2", "h-2"], ["stroke", "currentColor", "stroke-linecap", "round", "stroke-linejoin", "round", "stroke-width", "2", "d", "m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"], [1, "sr-only"], [1, "w-full", "rounded-lg", "p-8", "sm:p-12", "border", "shadow-lg", "border-gray-200", "dark:border-slate-50/[0.06]"], [3, "close", 4, "ngIf"], [3, "contact", 4, "ngIf"], [3, "close"], [3, "contact"]],
   template: function ModelComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](0, ModelComponent_div_0_Template, 1, 0, "div", 0);
@@ -2094,7 +2150,7 @@ function ProjectsDetailsComponent_div_1_div_17_Template(rf, ctx) {
   if (rf & 2) {
     const details_r3 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", details_r3.title, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", details_r3.title, " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](details_r3.desc);
   }
@@ -2171,7 +2227,7 @@ ProjectsDetailsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MO
   features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵStandaloneFeature"]],
   decls: 2,
   vars: 2,
-  consts: [["class", "bg-black z-50 fixed top-0 left-0 w-screen h-screen opacity-50", 4, "ngIf"], ["class", "flex items-center justify-center fixed top-0 left-0 right-0 z-50 p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full", 4, "ngIf"], [1, "bg-black", "z-50", "fixed", "top-0", "left-0", "w-screen", "h-screen", "opacity-50"], [1, "flex", "items-center", "justify-center", "fixed", "top-0", "left-0", "right-0", "z-50", "p-4", "overflow-x-hidden", "overflow-y-auto", "md:inset-0", "h-[calc(100%-1rem)]", "max-h-full"], [1, "relative", "w-full", "max-w-[65rem]", "max-h-full"], [1, "relative", "bg-white", "rounded-lg", "shadow-modelShadow", "dark:bg-dark-1"], ["type", "button", 1, "z-50", "absolute", "top-3", "right-2.5", "text-gray-400", "bg-pageBg", "hover:text-sky-500", "rounded-full", "text-sm", "w-8", "h-8", "ml-auto", "inline-flex", "justify-center", "items-center", "dark:bg-dark-pageBg", 3, "click"], ["aria-hidden", "true", "xmlns", "http://www.w3.org/2000/svg", "fill", "none", "viewBox", "0 0 14 14", 1, "w-2", "h-2"], ["stroke", "currentColor", "stroke-linecap", "round", "stroke-linejoin", "round", "stroke-width", "2", "d", "m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"], [1, "sr-only"], [1, "w-full", "rounded-lg", "p-4", "sm:p-12", "border", "shadow-lg", "border-gray-200", "dark:border-slate-50/[0.06]"], [1, "flex", "flex-col", "items-start", "pl-5"], ["href", "/", 1, "text-sm/[16px]", "font-bold", "text-slate-700", "dark:text-slate-200", "inline-flex", "items-baseline"], [1, "modal-body", "grid", "grid-cols-1", "md:grid-cols-2", "lg:grid-cols-3", "gap-2", "mt-4", "max-h-[30rem]", "overflow-y-scroll", "scrollbar-thin", "scrollbar-thumb-gray-400", "scrollbar-track-gray-300", "p-5"], ["class", "border border-slate-900/10 dark:border-slate-50/[0.06] rounded-lg p-4 shadow shadow-md", 4, "ngFor", "ngForOf"], [1, "border", "border-slate-900/10", "dark:border-slate-50/[0.06]", "rounded-lg", "p-4", "shadow", "shadow-md"], [1, "flex", "items-baseline", "whitespace-nowrap", "text-slate-700", "dark:text-slate-200", "-mt-px", "text-sm-11"], [1, "w-2", "h-2", "rounded-full", "bg-sky-500", "mr-1"], [1, "text-xsm", "text-slate-500", "dark:text-slate-400", "ml-3"]],
+  consts: [["class", "bg-black z-50 fixed top-0 left-0 w-screen h-screen opacity-50", 4, "ngIf"], ["class", "flex items-center justify-center fixed top-0 left-0 right-0 z-50 p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full", 4, "ngIf"], [1, "bg-black", "z-50", "fixed", "top-0", "left-0", "w-screen", "h-screen", "opacity-50"], [1, "flex", "items-center", "justify-center", "fixed", "top-0", "left-0", "right-0", "z-50", "p-4", "overflow-x-hidden", "overflow-y-auto", "md:inset-0", "h-[calc(100%-1rem)]", "max-h-full"], [1, "relative", "w-full", "max-w-[65rem]", "max-h-full"], [1, "relative", "bg-white", "rounded-lg", "shadow-modelShadow", "dark:bg-dark-1"], ["type", "button", 1, "z-50", "absolute", "top-3", "right-2.5", "text-gray-400", "bg-pageBg", "hover:text-sky-500", "rounded-full", "text-sm", "w-8", "h-8", "ml-auto", "inline-flex", "justify-center", "items-center", "dark:bg-dark-pageBg", 3, "click"], ["aria-hidden", "true", "xmlns", "http://www.w3.org/2000/svg", "fill", "none", "viewBox", "0 0 14 14", 1, "w-2", "h-2"], ["stroke", "currentColor", "stroke-linecap", "round", "stroke-linejoin", "round", "stroke-width", "2", "d", "m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"], [1, "sr-only"], [1, "w-full", "rounded-lg", "p-4", "sm:p-12", "border", "shadow-lg", "border-gray-200", "dark:border-slate-50/[0.06]"], [1, "flex", "flex-col", "items-start", "pl-5"], ["href", "/", 1, "text-sm/[16px]", "font-bold", "text-slate-700", "dark:text-slate-200", "inline-flex", "items-baseline"], [1, "modal-body", "grid", "grid-cols-1", "md:grid-cols-2", "lg:grid-cols-3", "gap-2", "mt-4", "max-h-[30rem]", "overflow-y-scroll", "scrollbar-thin", "scrollbar-thumb-gray-400", "scrollbar-track-gray-300", "p-5"], ["class", "border border-slate-900/10 dark:border-slate-50/[0.06] rounded-lg p-4 shadow shadow-md", 4, "ngFor", "ngForOf"], [1, "border", "border-slate-900/10", "dark:border-slate-50/[0.06]", "rounded-lg", "p-4", "shadow", "shadow-md"], [1, "flex", "items-baseline", "text-slate-700", "dark:text-slate-200", "-mt-px", "text-sm-11", "mb-1"], [1, "w-2", "h-2", "rounded-full", "bg-sky-500", "mr-1"], [1, "text-xsm", "text-slate-500", "dark:text-slate-400", "ml-3"]],
   template: function ProjectsDetailsComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ProjectsDetailsComponent_div_0_Template, 1, 0, "div", 0);
@@ -2255,11 +2311,6 @@ function ProjectsComponent_ng_container_5_div_44_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](0, "div", 37);
   }
 }
-const _c0 = function (a0) {
-  return {
-    "shadow-light_readmore_shadow dark:shadow-dark_readmore_shadow": a0
-  };
-};
 function ProjectsComponent_ng_container_5_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerStart"](0);
@@ -2327,9 +2378,7 @@ function ProjectsComponent_ng_container_5_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", projects_r3.description, " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", projects_r3.detailedDesc.slice(0, 2));
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](34, _c0, !ctx_r0.show));
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", !ctx_r0.projectDetailsLoading || ctx_r0.itemIndex !== i_r4);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx_r0.projectDetailsLoading && ctx_r0.itemIndex === i_r4);
@@ -2391,7 +2440,7 @@ function ProjectsComponent_button_9_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
   }
 }
-const _c1 = function (a0) {
+const _c0 = function (a0) {
   return {
     "shadow-light_viewmore_shadow dark:shadow-dark_viewmore_shadow": a0
   };
@@ -2413,7 +2462,7 @@ class ProjectsComponent {
       name: '-commerce',
       url: 'i2Tym-ecommerce.com',
       type: 'Web application',
-      smallDesc: 'This web application used for the selling products.',
+      smallDesc: 'A modern multi vendor platform to buy and sell products.',
       description: `A software platform or website application that enables online purchasing and selling of goods and services is known as
                       an eCommerce application. Customers can browse, choose, and buy items through a virtual storefront, which enables
                       businesses to exhibit their goods or services to a large audience. E-commerce software has grown in popularity as more
@@ -2483,7 +2532,7 @@ class ProjectsComponent {
       name: '-Learning',
       url: 'i2Tym-elearning.com',
       type: 'Web application',
-      smallDesc: 'This web application used for the learning frameworks.',
+      smallDesc: 'A creative live Learning Management system and collaboration platform.',
       description: `This is an eLearning application, also known as an online learning platform or Learning Management System 
                       (LMS), which is a software platform that facilitates the delivery, management, and tracking of educational content and 
                       courses over the internet. It enables individuals, students, employees, or learners of all ages to access educational 
@@ -2554,7 +2603,7 @@ class ProjectsComponent {
       subName: "inventory and billing management",
       url: 'i2Tym-billing.com',
       type: 'Web application',
-      smallDesc: 'This web application used for the shop keepers.',
+      smallDesc: 'A single point application to manage billing and inventory.',
       description: `Inventory and billing software is a type of business software that combines inventory management and billing 
                       functionalities into a single integrated system. It is designed to help businesses efficiently manage their inventory levels,
                       track product stock, and streamline the billing and invoicing processes. This software is commonly used by retail stores, 
@@ -2725,7 +2774,7 @@ ProjectsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2_
   selectors: [["app-projects"]],
   decls: 11,
   vars: 12,
-  consts: [["id", "projects", 1, "mx-auto", "mt-8", "px-6", "md:px-8", "lg:px-16", "xl:px-30", "2xl:px-55"], [1, "text-3xl", "leading-tight", "font-bold", "uppercase", "text-slate-700", "dark:text-slate-200"], [1, "text-sky-500"], [4, "ngFor", "ngForOf"], [1, "w-full", "inline-flex", "items-center", "justify-center", "mt-4", 3, "ngClass"], ["class", "text-sky-500 bg-transparent border hover:text-white focus:outline-none rounded-full text-xs px-8 py-2.5 text-center hover:bg-sky-500 border-sky-500 dark:text-sky-400 dark:hover:text-white focus:none", 3, "click", 4, "ngIf"], ["type", "button", "class", "inline-flex cursor-not-allowed items-center rounded-md bg-sky-500 px-4 py-2 text-sm font-semibold leading-6 text-white shadow transition duration-150 ease-in-out hover:bg-primary-400", "disabled", "", 4, "ngIf"], [3, "showPopup", "projectDetals", "close"], [1, "flex", "mt-8", "flex-wrap", "justify-between", "items-start"], [1, "lg:basis-1/3", "basis-full"], [1, "flex", "flex-col", "items-start"], ["href", "/", 1, "text-sm/[16px]", "font-bold", "text-slate-700", "dark:text-slate-200", "inline-flex", "items-baseline"], [1, "mt-6"], [1, "text-xs/[16px]", "flex", "items-start"], [1, "mr-2"], [1, "text-slate-700", "dark:text-slate-200", "mt-1"], [1, "ml-7", "mt-1.5", "text-sm-11"], [1, "text-slate-500", "dark:text-slate-400"], ["class", "my-3 ml-7", 4, "ngFor", "ngForOf"], [1, "w-full", "inline-flex", "items-center", "justify-center", "my-6", 3, "ngClass"], [1, "lg:basis-2/3", "basis-full", "-m-1", "flex", "flex-wrap", "justify-center", "lg:-m-2"], [1, "flex", "lg:w-2/5", "w-2/4", "flex-wrap"], [1, "w-1/2", "p-1", "md:p-2"], ["data-lightbox", "roadtrip", 3, "href", "title"], ["alt", "gallery", 1, "block", "h-full", "w-full", "rounded-lg", "object-cover", "object-center", "border-4", "shadow", "shadow-3xl", "border-gray-200", "dark:border-slate-50/[0.06]", 3, "src"], [1, "w-full", "p-1", "md:p-2"], ["class", "my-12 w-full h-px dark:bg-slate-700 bg-slate-200", 4, "ngIf"], [1, "my-3", "ml-7"], [1, "mb-2"], [1, "flex", "items-baseline", "whitespace-nowrap", "text-slate-700", "dark:text-slate-200", "-mt-px", "text-sm-11"], [1, "w-2", "h-2", "rounded-full", "bg-sky-500", "mr-1"], [1, "text-xsm", "text-slate-500", "dark:text-slate-400", "ml-3"], [1, "text-sky-500", "bg-transparent", "border", "hover:text-white", "focus:outline-none", "rounded-full", "text-xs", "px-8", "py-2.5", "text-center", "hover:bg-sky-500", "border-sky-500", "dark:text-sky-400", "dark:hover:text-white", "focus:none", 3, "click"], ["type", "button", "disabled", "", 1, "inline-flex", "cursor-not-allowed", "items-center", "rounded-md", "bg-sky-500", "px-4", "py-2", "text-sm", "font-semibold", "leading-6", "text-white", "shadow", "transition", "duration-150", "ease-in-out", "hover:bg-primary-400"], ["xmlns", "http://www.w3.org/2000/svg", "fill", "none", "viewBox", "0 0 24 24", 1, "-ml-1", "mr-3", "h-5", "w-5", "animate-spin", "text-white"], ["cx", "12", "cy", "12", "r", "10", "stroke", "currentColor", "stroke-width", "4", 1, "opacity-25"], ["fill", "currentColor", "d", "M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z", 1, "opacity-75"], [1, "my-12", "w-full", "h-px", "dark:bg-slate-700", "bg-slate-200"]],
+  consts: [["id", "projects", 1, "mx-auto", "mt-8", "px-6", "md:px-8", "lg:px-16", "xl:px-30", "2xl:px-55"], [1, "text-3xl", "leading-tight", "font-bold", "uppercase", "text-slate-700", "dark:text-slate-200"], [1, "text-sky-500"], [4, "ngFor", "ngForOf"], [1, "w-full", "inline-flex", "items-center", "justify-center", "mt-4", 3, "ngClass"], ["class", "text-sky-500 bg-transparent border hover:text-white focus:outline-none rounded-full text-xs px-8 py-2.5 text-center hover:bg-sky-500 border-sky-500 dark:text-sky-400 dark:hover:text-white focus:none", 3, "click", 4, "ngIf"], ["type", "button", "class", "inline-flex cursor-not-allowed items-center rounded-md bg-sky-500 px-4 py-2 text-sm font-semibold leading-6 text-white shadow transition duration-150 ease-in-out hover:bg-primary-400", "disabled", "", 4, "ngIf"], [3, "showPopup", "projectDetals", "close"], [1, "flex", "mt-8", "flex-wrap", "justify-between", "items-start"], [1, "lg:basis-1/3", "basis-full"], [1, "flex", "flex-col", "items-start"], ["href", "/", 1, "text-sm/[16px]", "font-bold", "text-slate-700", "dark:text-slate-200", "inline-flex", "items-baseline"], [1, "mt-6"], [1, "text-xs/[16px]", "flex", "items-start"], [1, "mr-2"], [1, "text-slate-700", "dark:text-slate-200", "mt-1"], [1, "ml-7", "mt-1.5", "text-sm-11"], [1, "text-slate-500", "dark:text-slate-400"], ["class", "my-3 ml-7", 4, "ngFor", "ngForOf"], [1, "w-full", "inline-flex", "items-center", "justify-center", "my-6", "shadow-light_readmore_shadow", "dark:shadow-dark_readmore_shadow"], [1, "lg:basis-2/3", "basis-full", "-m-1", "flex", "flex-wrap", "justify-center", "lg:-m-2"], [1, "flex", "lg:w-2/5", "w-2/4", "flex-wrap"], [1, "w-1/2", "p-1", "md:p-2"], ["data-lightbox", "roadtrip", 3, "href", "title"], ["alt", "gallery", 1, "block", "h-full", "w-full", "rounded-lg", "object-cover", "object-center", "border-4", "shadow", "shadow-3xl", "border-gray-200", "dark:border-slate-50/[0.06]", 3, "src"], [1, "w-full", "p-1", "md:p-2"], ["class", "my-12 w-full h-px dark:bg-slate-700 bg-slate-200", 4, "ngIf"], [1, "my-3", "ml-7"], [1, "mb-2"], [1, "flex", "items-baseline", "whitespace-nowrap", "text-slate-700", "dark:text-slate-200", "-mt-px", "text-sm-11"], [1, "w-2", "h-2", "rounded-full", "bg-sky-500", "mr-1"], [1, "text-xsm", "text-slate-500", "dark:text-slate-400", "ml-3"], [1, "text-sky-500", "bg-transparent", "border", "hover:text-white", "focus:outline-none", "rounded-full", "text-xs", "px-8", "py-2.5", "text-center", "hover:bg-sky-500", "border-sky-500", "dark:text-sky-400", "dark:hover:text-white", "focus:none", 3, "click"], ["type", "button", "disabled", "", 1, "inline-flex", "cursor-not-allowed", "items-center", "rounded-md", "bg-sky-500", "px-4", "py-2", "text-sm", "font-semibold", "leading-6", "text-white", "shadow", "transition", "duration-150", "ease-in-out", "hover:bg-primary-400"], ["xmlns", "http://www.w3.org/2000/svg", "fill", "none", "viewBox", "0 0 24 24", 1, "-ml-1", "mr-3", "h-5", "w-5", "animate-spin", "text-white"], ["cx", "12", "cy", "12", "r", "10", "stroke", "currentColor", "stroke-width", "4", 1, "opacity-25"], ["fill", "currentColor", "d", "M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z", 1, "opacity-75"], [1, "my-12", "w-full", "h-px", "dark:bg-slate-700", "bg-slate-200"]],
   template: function ProjectsComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0)(1, "h1", 1);
@@ -2733,7 +2782,7 @@ ProjectsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2_
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "span", 2);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](4, " Projects ");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](5, ProjectsComponent_ng_container_5_Template, 45, 36, "ng-container", 3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](5, ProjectsComponent_ng_container_5_Template, 45, 33, "ng-container", 3);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipe"](6, "slice");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "div", 4);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](8, ProjectsComponent_button_8_Template, 2, 0, "button", 5);
@@ -2749,7 +2798,7 @@ ProjectsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2_
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind3"](6, 6, ctx.projectsDetails, ctx.start, ctx.end));
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](10, _c1, !ctx.show));
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](10, _c0, !ctx.show));
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", !ctx.show && !ctx.loading);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
@@ -3144,16 +3193,16 @@ function TestimonialsComponent_ng_template_7_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " I had a fantastic experience with i2Tym. The trainers were incredibly knowledgeable and supportive throughout the entire course. The curriculum was well-structured, and the practical exercises helped me gain hands-on experience. Thanks to the training I received here, I was able to apply my new skills directly in my job, and it has significantly boosted my career prospects. I highly recommend i2tym to anyone looking to upskill and excel in their professional journey. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 12)(8, "span", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "M");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "S");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "span", 14)(11, "span", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Manoj kumar");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Selva Kumar M");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "span", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "UI DEVELOPER");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "IT Professional");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()();
   }
 }
@@ -3166,16 +3215,16 @@ function TestimonialsComponent_ng_template_8_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " As a startup, we needed a website that would not only establish our online presence but also set us apart from the competition.I2tym delivered beyond our expectations. They crafted a visually stunning and mobile-responsive website that effectively communicates our brand story. The team's technical proficiency and creative approach are evident in every aspect of the site. They were receptive to our ideas and provided valuable insights to optimize the user experience. Thanks to I2tym, we now have a website that is driving growth and attracting new customers. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 12)(8, "span", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "S");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "R");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "span", 14)(11, "span", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Sachin");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Ram");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "span", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "UI DEVELOPER");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Medical Representative");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()();
   }
 }
@@ -3188,13 +3237,13 @@ function TestimonialsComponent_ng_template_9_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Working with i2tym was an absolute pleasure. From the initial consultation to the final delivery, they demonstrated a high level of professionalism and expertise. They took the time to understand our unique requirements and translated them into a visually stunning and user-friendly website. The team was responsive and communicative throughout the entire process, ensuring that our feedback was incorporated effectively. We are thrilled with the end result and have received numerous compliments from our clients. I highly recommend i2tym to anyone in need of top-notch web development services.");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 12)(8, "span", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "D");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "span", 14)(11, "span", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "David");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Justin");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "span", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "BACKEND DEVELOPER");
@@ -3210,7 +3259,7 @@ function TestimonialsComponent_ng_template_10_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Working with I2tym has been an absolute game-changer for our organization. Their in-depth knowledge of software systems and strategic approach to problem-solving have significantly improved our efficiency and productivity. They took the time to understand our specific needs and challenges, and their tailored solutions have streamlined our processes and saved us valuable time and resources. I2tym is a true expert in their field, and we wholeheartedly recommend their services to any company seeking a top-notch software consultant.");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 12)(8, "span", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "A");
@@ -3232,7 +3281,29 @@ function TestimonialsComponent_ng_template_11_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "We were facing several roadblocks in implementing a new software system until we brought in I2tym. Their expertise and guidance were instrumental in successfully executing the project. They provided valuable insights, identified potential pitfalls, and helped us make informed decisions. Throughout the engagement, I2tym displayed professionalism and dedication, going above and beyond to ensure we achieved our objectives. We couldn't have asked for a better software consultant, and we are grateful for their contribution to our success.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 12)(8, "span", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "K");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "span", 14)(11, "span", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Krishnan");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "span", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "UI DEVELOPER");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()();
+  }
+}
+function TestimonialsComponent_ng_template_12_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 6)(1, "div", 7)(2, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "svg", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "path", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "As a startup, we needed expert guidance to select the right software tools to support our business operations. I2tym came highly recommended, and they did not disappoint. They patiently listened to our requirements and recommended the ideal software solutions to align with our long-term goals. Their implementation process was smooth and efficient, and they provided comprehensive training to our team, ensuring a seamless transition. Thanks to I2tym, we have a robust software foundation that can scale as we grow. We are grateful for their expertise and highly satisfied with the results.");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 12)(8, "span", 25);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "K");
@@ -3283,7 +3354,7 @@ TestimonialsComponent.ɵfac = function TestimonialsComponent_Factory(t) {
 TestimonialsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
   type: TestimonialsComponent,
   selectors: [["app-testimonials"]],
-  decls: 12,
+  decls: 13,
   vars: 1,
   consts: [[1, "mx-auto", "mt-8", "px-6", "md:px-8", "lg:px-16", "xl:px-30", "2xl:px-55"], [1, "text-3xl", "leading-tight", "font-bold", "text-slate-700", "dark:text-slate-200"], [1, "text-sky-500"], [1, "what_we_do"], [3, "options"], ["carouselSlide", ""], [1, "slide"], [1, "w-full"], [1, "h-full", "rounded"], ["xmlns", "http://www.w3.org/2000/svg", "fill", "currentColor", "viewBox", "0 0 975.036 975.036", 1, "block", "w-5", "h-5", "text-sky-500", "mb-4"], ["d", "M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"], [1, "leading-relaxed", "mb-6", "text-slate-500", "text-sm13", "dark:text-slate-400"], [1, "inline-flex", "items-center"], [1, "w-12", "h-12", "rounded-full", "inline-flex", "text-lg", "text-white", "dark:text-slate-200", "uppercase", "font-bold", "items-center", "justify-center", "bg-emerald-500", "flex-shrink-0"], [1, "flex-grow", "flex", "flex-col", "pl-4"], [1, "text-xmd", "text-slate-700", "dark:text-slate-200"], [1, "text-emerald-500", "font-semibold", "uppercase", "text-sm"], [1, "leading-relaxed", "mb-6", "text-sm13", "text-slate-500", "dark:text-slate-400"], [1, "w-12", "h-12", "rounded-full", "inline-flex", "text-lg", "text-white", "dark:text-slate-200", "uppercase", "font-bold", "items-center", "justify-center", "bg-cyan-500", "flex-shrink-0"], [1, "text-cyan-500", "font-semibold", "uppercase", "text-sm"], [1, "w-12", "h-12", "rounded-full", "inline-flex", "text-lg", "text-white", "dark:text-slate-200", "uppercase", "font-bold", "items-center", "justify-center", "bg-violet-500", "flex-shrink-0"], [1, "text-violet-500", "font-semibold", "uppercase", "text-sm"], [1, "w-12", "h-12", "rounded-full", "inline-flex", "text-lg", "text-white", "dark:text-slate-200", "uppercase", "font-bold", "items-center", "justify-center", "bg-fuchsia-500", "flex-shrink-0"], [1, "text-fuchsia-500", "font-semibold", "uppercase", "text-sm"], [1, "leading-relaxed", "text-sm13", "mb-6", "text-slate-500", "dark:text-slate-400"], [1, "w-12", "h-12", "rounded-full", "inline-flex", "text-lg", "text-white", "dark:text-slate-200", "uppercase", "font-bold", "items-center", "justify-center", "bg-orange-500", "flex-shrink-0"], [1, "text-orange-500", "font-semibold", "uppercase", "text-sm"]],
   template: function TestimonialsComponent_Template(rf, ctx) {
@@ -3299,6 +3370,7 @@ TestimonialsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODUL
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, TestimonialsComponent_ng_template_9_Template, 15, 0, "ng-template", 5);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, TestimonialsComponent_ng_template_10_Template, 15, 0, "ng-template", 5);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, TestimonialsComponent_ng_template_11_Template, 15, 0, "ng-template", 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](12, TestimonialsComponent_ng_template_12_Template, 15, 0, "ng-template", 5);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
     }
     if (rf & 2) {
@@ -3427,22 +3499,22 @@ WorkComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["�
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnamespaceHTML"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](84, "div", 40)(85, "span", 41);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](86, "We use Agile methodology for development.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](86, "We follow japanese methods for Improved focus and productivity.");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](87, "ul", 42)(88, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](89, "Regular stand-up meeting via video calls.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](89, "Ikigai & Kaizen & Kakeibo.");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](90, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](91, "Weekly status reports.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](91, "Pomodoro Technique.");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](92, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](93, "Resource-effective & time-sensitive process.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](93, "Forest Bathing (Shinrin-Yoku).");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](94, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](95, "Sprint planning.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](95, "Shitsuke, Seiri, Seiton, Seiso, Seiketsu (5S).");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](96, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](97, "Sprint review and demo.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](97, "Shoshin.");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()();
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](98, "div", 34)(99, "div", 43)(100, "div", 44)(101, "div", 45);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnamespaceSVG"]();
@@ -3454,7 +3526,7 @@ WorkComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["�
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](107, "Are you ready to work with us?");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](108, "div", 48);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](109, " let's get to know about your project, we can discuss any time. fell free to ask us or raise a request.let's get to know about your project, we can discuss any time. fell free to ask us or raise a request ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](109, " Take the first step and apply now to explore the possibilities of becoming a valued member of our team. ");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](110, "div", 49)(111, "button", 50);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function WorkComponent_Template_button_click_111_listener() {
