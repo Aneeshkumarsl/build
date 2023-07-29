@@ -1134,6 +1134,42 @@ function DescriptionComponent_ng_template_28_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
   }
 }
+function DescriptionComponent_ng_template_29_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 11)(1, "div", 12)(2, "div", 13)(3, "div", 14)(4, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](5, "svg-icon", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, " Databse admin ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
+  }
+}
+function DescriptionComponent_ng_template_30_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 11)(1, "div", 12)(2, "div", 13)(3, "div", 14)(4, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](5, "svg-icon", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, " Cloud computing ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
+  }
+}
+function DescriptionComponent_ng_template_31_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 11)(1, "div", 12)(2, "div", 13)(3, "div", 14)(4, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](5, "svg-icon", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, " Cyber security ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
+  }
+}
+function DescriptionComponent_ng_template_32_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 11)(1, "div", 12)(2, "div", 13)(3, "div", 14)(4, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](5, "svg-icon", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, " Trainings/events ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
+  }
+}
 class DescriptionComponent {
   constructor() {
     this.customOptions = {
@@ -1167,7 +1203,7 @@ class DescriptionComponent {
           items: 9.2
         },
         1200: {
-          items: 10.7
+          items: 10.1
         }
       },
       nav: false
@@ -1180,9 +1216,9 @@ DescriptionComponent.ɵfac = function DescriptionComponent_Factory(t) {
 DescriptionComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
   type: DescriptionComponent,
   selectors: [["app-description"]],
-  decls: 30,
+  decls: 34,
   vars: 1,
-  consts: [["id", "initial", 1, "mx-auto", "mt-8", "px-6", "md:px-8", "lg:px-16", "xl:px-30", "2xl:px-55"], [1, "w-full"], [1, "text-3xl", "md:text-xLarge", "md:whitespace-nowrap", "leading-tight", "font-bold", "capitalize", "text-slate-700", "[word-spacing:8px]", "dark:text-slate-200"], [1, "hidden", "sm:block"], [1, "text-sky-500", "break-after-page"], [1, "text-xs/[16px]", "text-slate-500", "dark:text-slate-400", "flex", "items-start"], [1, "mr-2"], [1, "mt-1"], [1, "our_service_dtls", "lg:w-4/6", "md:w-4/5"], [3, "options"], ["carouselSlide", ""], [1, "slide"], [1, "flex", "items-center", "flex-col", "w-full"], [1, "basis-full", "mb-2.5"], [1, "flex-col", "w-[120px]", "border", "border-slate-300", "rounded-lg", "dark:border-dark-border", "py-2.5", "group", "capitalize", "flex", "items-center", "text-[8px]", "lg:leading-6", "mb-4", "font-semibold", "text-slate-700", "dark:text-slate-200"], [1, "p-3", "flex", "items-center", "justify-center"], ["src", "assets/icons/svg/responsive.svg", 1, "w-8", "h-8"], [1, "flex", "items-center", "justify-center", "p-3"], ["src", "assets/icons/svg/devops.svg", 1, "w-8", "h-8"], ["src", "assets/icons/svg/solution.svg", 1, "w-8", "h-8"], ["src", "assets/icons/svg/tech.svg", 1, "w-8", "h-8"], ["src", "assets/icons/svg/ai_learn.svg", 1, "w-8", "h-8"], ["src", "assets/icons/svg/automation.svg", 1, "w-8", "h-8"], ["src", "assets/icons/svg/widgets.svg", 1, "w-8", "h-8"]],
+  consts: [["id", "initial", 1, "mx-auto", "mt-8", "px-6", "md:px-8", "lg:px-16", "xl:px-30", "2xl:px-55"], [1, "w-full"], [1, "text-3xl", "md:text-xLarge", "md:whitespace-nowrap", "leading-tight", "font-bold", "capitalize", "text-slate-700", "[word-spacing:8px]", "dark:text-slate-200"], [1, "hidden", "sm:block"], [1, "text-sky-500", "break-after-page"], [1, "text-xs/[16px]", "text-slate-500", "dark:text-slate-400", "flex", "items-start"], [1, "mr-2"], [1, "mt-1"], [1, "our_service_dtls"], [3, "options"], ["carouselSlide", ""], [1, "slide"], [1, "flex", "items-center", "flex-col", "w-full"], [1, "basis-full", "mb-2.5"], [1, "flex-col", "w-[120px]", "border", "border-slate-300", "rounded-lg", "dark:border-dark-border", "py-2.5", "group", "capitalize", "flex", "items-center", "text-[8px]", "lg:leading-6", "mb-4", "font-semibold", "text-slate-700", "dark:text-slate-200"], [1, "p-3", "flex", "items-center", "justify-center"], ["src", "assets/icons/svg/responsive.svg", 1, "w-8", "h-8"], [1, "flex", "items-center", "justify-center", "p-3"], ["src", "assets/icons/svg/devops.svg", 1, "w-8", "h-8"], ["src", "assets/icons/svg/solution.svg", 1, "w-8", "h-8"], ["src", "assets/icons/svg/tech.svg", 1, "w-8", "h-8"], ["src", "assets/icons/svg/ai_learn.svg", 1, "w-8", "h-8"], ["src", "assets/icons/svg/automation.svg", 1, "w-8", "h-8"], ["src", "assets/icons/svg/widgets.svg", 1, "w-8", "h-8"], ["src", "assets/icons/svg/database_admin.svg", 1, "w-8", "h-8"], ["src", "assets/icons/svg/cloud.svg", 1, "w-8", "h-8"], ["src", "assets/icons/svg/cyber.svg", 1, "w-8", "h-8"], ["src", "assets/icons/svg/training.svg", 1, "w-8", "h-8"]],
   template: function DescriptionComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "h1", 2);
@@ -1215,8 +1251,12 @@ DescriptionComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](26, DescriptionComponent_ng_template_26_Template, 7, 0, "ng-template", 10);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](27, DescriptionComponent_ng_template_27_Template, 7, 0, "ng-template", 10);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](28, DescriptionComponent_ng_template_28_Template, 7, 0, "ng-template", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](29, DescriptionComponent_ng_template_29_Template, 7, 0, "ng-template", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](30, DescriptionComponent_ng_template_30_Template, 7, 0, "ng-template", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](31, DescriptionComponent_ng_template_31_Template, 7, 0, "ng-template", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](32, DescriptionComponent_ng_template_32_Template, 7, 0, "ng-template", 10);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](29, "app-carousal");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](33, "app-carousal");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     }
     if (rf & 2) {
@@ -3106,7 +3146,6 @@ class SendDetailsBlockComponent {
     };
     this.isReady = true;
     this.apiSevice.post(updateData).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(this.destroy$), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_8__.delay)(2000)).subscribe(res => {
-      console.log('jjjjjjjjjjjjjjjjjj');
       if (res.response.status == 'success') {
         this.isReady = false;
         this.userDataForm.reset();
@@ -3121,7 +3160,6 @@ class SendDetailsBlockComponent {
         this.isError = true;
       }, 2000);
     });
-    console.log(updateData, 'userEditForm.value');
   }
   closeErrorComp(data) {
     this.isError = data;
@@ -3684,37 +3722,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ApiService: () => (/* binding */ ApiService)
 /* harmony export */ });
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ 4860);
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../environments/environment */ 553);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ 3994);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ 8175);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common/http */ 4860);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ 3994);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ 8175);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 1699);
 
 
 
 
 
-
-const BASE_URL = _environments_environment__WEBPACK_IMPORTED_MODULE_0__.environment.urlSet;
 class ApiService {
   constructor(httpClient) {
     this.httpClient = httpClient;
     this.options = {
-      headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__.HttpHeaders().set('Content-Type', 'application/json')
+      headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__.HttpHeaders().set('Content-Type', 'application/json')
     };
   }
   post(body = {}) {
-    console.log('jhhhh');
-    return this.httpClient.post('https://elearn-i2tym.onrender.com/i2tymelearnapi/v1/enquiries/enquiry', JSON.stringify(body), this.options).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_2__.catchError)(this.formatErrors));
+    return this.httpClient.post('https://elearn-i2tym.onrender.com/i2tymelearnapi/v1/enquiries/enquiry', JSON.stringify(body), this.options).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_1__.catchError)(this.formatErrors));
   }
   formatErrors(error) {
-    return (0,rxjs__WEBPACK_IMPORTED_MODULE_3__.throwError)(error.error);
+    return (0,rxjs__WEBPACK_IMPORTED_MODULE_2__.throwError)(error.error);
   }
 }
 ApiService.ɵfac = function ApiService_Factory(t) {
-  return new (t || ApiService)(_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__.HttpClient));
+  return new (t || ApiService)(_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_0__.HttpClient));
 };
-ApiService.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineInjectable"]({
+ApiService.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjectable"]({
   token: ApiService,
   factory: ApiService.ɵfac,
   providedIn: 'root'
@@ -3835,9 +3869,7 @@ __webpack_require__.r(__webpack_exports__);
 // The list of file replacements can be found in `angular.json`.
 const environment = {
   production: false,
-  urlSet: {
-    enquiries: '/i2tymelearnapi/v1/enquiries'
-  },
+  urlSet: {},
   envName: 'DEV'
 };
 /*
