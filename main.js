@@ -2944,14 +2944,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 1699);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/forms */ 8849);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common */ 6575);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ 6575);
 /* harmony import */ var _success_party_model_success_party_model_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../success-party-model/success-party-model.component */ 2115);
 /* harmony import */ var src_app_services_apiService__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/services/apiService */ 6698);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rxjs/operators */ 3303);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! rxjs/operators */ 5617);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs */ 2484);
 /* harmony import */ var _error_component_error_component_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../error-component/error-component.component */ 6910);
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/common/http */ 4860);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common/http */ 4860);
 /* harmony import */ var src_app_services_menu_service_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/services/menu-service.service */ 240);
 
 
@@ -3145,7 +3144,7 @@ class SendDetailsBlockComponent {
       query: this.userDataForm.value.message
     };
     this.isReady = true;
-    this.apiSevice.post(updateData).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(this.destroy$), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_8__.delay)(2000)).subscribe(res => {
+    this.apiSevice.post(updateData).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(this.destroy$)).subscribe(res => {
       if (res.response.status == 'success') {
         this.isReady = false;
         this.userDataForm.reset();
@@ -3154,11 +3153,9 @@ class SendDetailsBlockComponent {
         this.menuService.contactDetailsSubmitted = true;
       }
     }, error => {
-      setTimeout(() => {
-        this.isReady = false;
-        this.submitted = false;
-        this.isError = true;
-      }, 2000);
+      this.isReady = false;
+      this.submitted = false;
+      this.isError = true;
     });
   }
   closeErrorComp(data) {
@@ -3240,7 +3237,7 @@ SendDetailsBlockComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_M
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx.isError);
     }
   },
-  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_9__.CommonModule, _angular_common__WEBPACK_IMPORTED_MODULE_9__.NgIf, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_6__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_6__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.MaxLengthValidator, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.ReactiveFormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormGroupDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormControlName, _success_party_model_success_party_model_component__WEBPACK_IMPORTED_MODULE_0__.SuccessPartyModelComponent, _error_component_error_component_component__WEBPACK_IMPORTED_MODULE_2__.ErrorComponent, _angular_common_http__WEBPACK_IMPORTED_MODULE_10__.HttpClientModule],
+  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_8__.CommonModule, _angular_common__WEBPACK_IMPORTED_MODULE_8__.NgIf, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_6__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_6__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.MaxLengthValidator, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.ReactiveFormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormGroupDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormControlName, _success_party_model_success_party_model_component__WEBPACK_IMPORTED_MODULE_0__.SuccessPartyModelComponent, _error_component_error_component_component__WEBPACK_IMPORTED_MODULE_2__.ErrorComponent, _angular_common_http__WEBPACK_IMPORTED_MODULE_9__.HttpClientModule],
   styles: ["/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ== */"]
 });
 
